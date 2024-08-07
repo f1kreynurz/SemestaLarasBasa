@@ -54,26 +54,50 @@
                 <ul>
                     <li><a href="#hero" class="active">Home<br></a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li class="dropdown"><a href="#"><span>Products</span> <i
+                    <li class="dropdown"><a href="#services"><span>Services</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
+                            <li class="dropdown"><a href="#"><span>Language Services</span> <i
+                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="#">Translation</a></li>
+                                    <li><a href="#">Proofreading</a></li>
+                                    <li><a href="#">Interpreting</a></li>
+                                    <li><a href="#">Bilingual Website Content Writer</a></li>
+                                    <li><a href="#">Voice Over</a></li>
+                                    <li><a href="#">Language Testing</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown"><a href="#"><span>Research</span> <i
+                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="#">Research Assistant</a></li>
+                                    <li><a href="#">Journal Consultant</a></li>
+                                    <li><a href="#">Gap Research</a></li>
+                                    <li><a href="#">Writing Clinic</a></li>
+                                    <li><a href="#">Journal Submission Service</a></li>
+                                    <li><a href="#">Paper Layouting</a></li>
+                                    <li><a href="#">Content Development</a></li>
+                                    <li><a href="#">Tracking Journal</a></li>
+                                    <li><a href="#">Others</a></li>
+                                </ul>
+                            </li>
+
                             <li class="dropdown"><a href="#"><span>Training</span> <i
                                         class="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>
+                                    <li><a href="#">Corporate in-House Training</a></li>
+                                    <li><a href="#">School in-House Training</a></li>
+                                    <li><a href="#">IELTS, TOEFL & TOEIC Preperation</a></li>
                                     <li><a href="#">E-Learning</a></li>
-                                    <li><a href="#">TOEFL</a></li>
                                     <li><a href="#">Public Speaking</a></li>
-                                    <li><a href="#">Journal</a></li>
-                                    <li><a href="#">Content Writer</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Language Service</a></li>
-                            <li><a href="#">Research</a></li>
                         </ul>
                     </li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -429,7 +453,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Deskripsi terkait Section Services</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -444,13 +468,12 @@
                                 M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174">
                                 </path>
                                 </svg>
-                                <i class="bi bi-activity"></i>
+                                <i class="bi bi-translate"></i>
                             </div>
                             <a href="service-details.html" class="stretched-link">
-                                <h3>Nesciunt Mete</h3>
+                                <h3>Language Services</h3>
                             </a>
-                            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
-                                iure perferendis tempore et consequatur.</p>
+                            <p>Subheading untuk Language Services.</p>
                         </div>
                     </div><!-- End Service Item -->
 
@@ -463,13 +486,12 @@
                                         d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426">
                                     </path>
                                 </svg>
-                                <i class="bi bi-broadcast"></i>
+                                <i class="bi bi-search"></i>
                             </div>
                             <a href="service-details.html" class="stretched-link">
-                                <h3>Eosle Commodi</h3>
+                                <h3>Research</h3>
                             </a>
-                            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum
-                                hic non ut nesciunt dolorem.</p>
+                            <p>Subheading untuk Research.</p>
                         </div>
                     </div><!-- End Service Item -->
 
@@ -482,17 +504,16 @@
                                         d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781">
                                     </path>
                                 </svg>
-                                <i class="bi bi-easel"></i>
+                                <i class="bi bi-book-half"></i>
                             </div>
                             <a href="service-details.html" class="stretched-link">
-                                <h3>Ledo Markt</h3>
+                                <h3>Training</h3>
                             </a>
-                            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id
-                                voluptas adipisci eos earum corrupti.</p>
+                            <p>Subheading untuk Training.</p>
                         </div>
                     </div><!-- End Service Item -->
 
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    {{-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                         <div class="service-item item-red position-relative">
                             <div class="icon">
                                 <svg width="100" height="100" viewBox="0 0 600 600"
@@ -550,7 +571,7 @@
                                 Corrupti recusandae ducimus enim.</p>
                             <a href="service-details.html" class="stretched-link"></a>
                         </div>
-                    </div><!-- End Service Item -->
+                    </div><!-- End Service Item --> --}}
 
                 </div>
 
@@ -739,8 +760,46 @@
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Team</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <h2>Our Team</h2>
+                {{-- <p>Subheading untuk Team</p> --}}
+            </div><!-- End Section Title -->
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <p style="font-size: 32px">President</p>
+            </div><!-- End Section Title -->
+
+            <div class="container" >
+
+                <div class="row gy-4" style="justify-content: center">
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
+                        data-aos-delay="400">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Orang ke-4</h4>
+                                <span>Jabatan</span>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                </div>
+
+            </div>
+            
+            
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <p style="font-size: 32px;padding-top: 45px">Secretary</p>
             </div><!-- End Section Title -->
 
             <div class="container">
@@ -760,8 +819,8 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Walter White</h4>
-                                <span>Chief Executive Officer</span>
+                                <h4>Orang ke-1</h4>
+                                <span>Jabatan</span>
                             </div>
                         </div>
                     </div><!-- End Team Member -->
@@ -779,8 +838,8 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Sarah Jhonson</h4>
-                                <span>Product Manager</span>
+                                <h4>Orang ke-2</h4>
+                                <span>Jabatan</span>
                             </div>
                         </div>
                     </div><!-- End Team Member -->
@@ -798,8 +857,8 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>William Anderson</h4>
-                                <span>CTO</span>
+                                <h4>Orang Ke-3</h4>
+                                <span>Jabatan</span>
                             </div>
                         </div>
                     </div><!-- End Team Member -->
@@ -817,8 +876,8 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Amanda Jepson</h4>
-                                <span>Accountant</span>
+                                <h4>Orang ke-4</h4>
+                                <span>Jabatan</span>
                             </div>
                         </div>
                     </div><!-- End Team Member -->
@@ -826,7 +885,7 @@
                 </div>
 
             </div>
-
+            
         </section><!-- /Team Section -->
 
         <!-- Pricing Section -->
@@ -992,17 +1051,22 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Contact</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <p>Subheading untuk Contact</p>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
                 <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
-                    <iframe style="border:0; width: 100%; height: 270px;"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
-                        frameborder="0" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div><!-- End Google Maps -->
+                    <iframe 
+                        style="border:0; width: 100%; height: 270px;" 
+                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBu2kYMRfZ7A4HuEAr4HRmkac0SI0MTrH4&q=-6.883177,107.5792616" 
+                        frameborder="0" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <!-- End Google Maps -->
 
                 <div class="row gy-4">
 
@@ -1011,7 +1075,7 @@
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
                                 <h3>Address</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>21 Terusan Cibogo Atas</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -1019,7 +1083,7 @@
                             <i class="bi bi-telephone flex-shrink-0"></i>
                             <div>
                                 <h3>Call Us</h3>
-                                <p>+1 5589 55488 55</p>
+                                <p>+62 1234 5678</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -1027,7 +1091,7 @@
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h3>Email Us</h3>
-                                <p>info@example.com</p>
+                                <p>customerservice@semestalarasbasa.com</p>
                             </div>
                         </div><!-- End Info Item -->
 
