@@ -307,12 +307,12 @@
             <div class="container" data-aos="fade-up">
 
                 <!-- Section Title -->
-                <div class="container section-title" data-aos="fade-up" style="padding-bottom: 10px">
-                    <h2>Our Client</h2>
-                    <p style="font-weight: bold">Government</p>
+                <div class="container section-title" data-aos="fade-up" style="padding-bottom: 40px">
+                    <h2 style="padding-bottom: 50px">Our Client</h2>
+                    <p>Government</p>
                 </div><!-- End Section Title -->
 
-                <div class="row gy-4">
+                <div class="row gy-4" style="padding-bottom: 50px">
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/bappeda.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
@@ -327,6 +327,14 @@
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/zakat.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/aseansummer.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/pemkotbandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
@@ -356,11 +364,11 @@
                 </div>
 
                 <!-- Section Title -->
-                <div class="container section-title" data-aos="fade-up" style="padding-bottom: 10px">
-                    <p style="font-weight: bold">Company</p>
+                <div class="container section-title" data-aos="fade-up" style="padding-bottom: 40px">
+                    <p>Company</p>
                 </div><!-- End Section Title -->
 
-                <div class="row gy-4">
+                <div class="row gy-4" style="padding-bottom: 50px">
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/infomedia.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
@@ -390,48 +398,299 @@
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/KEL.png') }}" class="img-fluid" alt="quadran">
+                        <img src="{{ asset('img/clients/KEL.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/rscw.png') }}" class="img-fluid" alt="quadran">
+                        <img src="{{ asset('img/clients/mercuria.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/tripaneer.png') }}" class="img-fluid" alt="quadran">
+                        <img src="{{ asset('img/clients/rscw.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/pos.png') }}" class="img-fluid" alt="quadran">
+                        <img src="{{ asset('img/clients/tripaneer.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/persib.png') }}" class="img-fluid" alt="quadran">
+                        <img src="{{ asset('img/clients/anindya.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/kh.png') }}" class="img-fluid" alt="quadran">
+                        <img src="{{ asset('img/clients/pos.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/yakjin.png') }}" class="img-fluid" alt="quadran">
+                        <img src="{{ asset('img/clients/persib.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/hariff.png') }}" class="img-fluid" alt="quadran">
+                        <img src="{{ asset('img/clients/kh.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/cga.png') }}" class="img-fluid" alt="quadran">
+                        <img src="{{ asset('img/clients/yakjin.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/pupukkujang.png') }}" class="img-fluid" alt="quadran">
+                        <img src="{{ asset('img/clients/hariff.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/gsp.png') }}" class="img-fluid" alt="quadran">
+                        <img src="{{ asset('img/clients/cga.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/pupukkujang.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/gsp.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/sil.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/thermochem.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/jcm.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/qenarispa.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/trans-hotel.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                </div>
+
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up" style="padding-bottom: 40px">
+                    <p>School</p>
+                </div><!-- End Section Title -->
+
+                <div class="row gy-4" style="padding-bottom: 50px">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/smpdaaruttauhid.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/smkn7bandung.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/smkn5bandung.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/smkkencana.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/smknasionalbandung.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/pasundan1bandung.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/pasundan1cianjur.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/pasundan2cianjur.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/smkbahagia.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/smkbpkpenabur.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/smktelkombandung.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/sman9bandung.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/smabpibandung.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/sman25tangerang.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/sma109.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/assyifa.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                </div>
+                
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up" style="padding-bottom: 40px">
+                    <p>University</p>
+                </div><!-- End Section Title -->
+
+                <div class="row gy-4" style="padding-bottom: 50px">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/monash.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/unsw.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/nmu.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/fujen.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/utem.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/upi.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/unpad.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/itb.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/unikom.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/uib.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/telkom.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/polban.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/unjani.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/unpas.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/ui.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/atmajaya.gif') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/petra.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/isbi.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/stks.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/unsil.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/ipb.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/binus.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/maranatha.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/uny.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/trisakti.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/unpar.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/unj.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/its.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/uin.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/ulbi.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/stia.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/riau.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/unpam.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/udayana.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/uta.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/unbraw.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                    
                 </div>
 
             </div>
