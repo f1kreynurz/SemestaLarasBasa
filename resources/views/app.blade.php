@@ -173,8 +173,12 @@
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>About Us<br></h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <h2>About Laras Basa<br></h2>
+                <p>We have been providing training, language and research assistance since 2013. Officially, we have
+                    operated under CV Semesta Raya since 2015. In July 2024, we transitioned to PT Semesta Laras Basa.
+                    To date, we have completed over 25,000 translation and proofreading projects for individuals,
+                    companies, state-owned enterprises, and both local and international clients.
+                </p>
             </div><!-- End Section Title -->
 
             <div class="container">
@@ -182,28 +186,28 @@
                 <div class="row gy-4">
 
                     <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+                        <h2>Vision</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore
-                            magna aliqua.
+                            Laras Basa hadir sebagai pusat pelayanan kajian dan bahasa baik di tingkat nasional maupun
+                            internasional.
                         </p>
-                        <ul>
-                            <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</span></li>
-                            <li><i class="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in
-                                    voluptate velit.</span></li>
-                            <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea
-                                    commodo</span></li>
-                        </ul>
+
                     </div>
 
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                            laborum. </p>
-                        <a href="#" class="read-more"><span>Read More</span><i
-                                class="bi bi-arrow-right"></i></a>
+                        <h2>Mission</h2>
+                        <ul>
+                            <li><i class="bi bi-check2-circle"></i> <span>Menyelenggarakan pelayanan bahasa yang
+                                    terpercaya.</span></li>
+                            <li><i class="bi bi-check2-circle"></i> <span>Menyelenggarakan pelatihan bahasa dan budaya
+                                    yang inovatif.</span></li>
+                            <li><i class="bi bi-check2-circle"></i> <span>Membangun kemitraan dan kerjasama dengan
+                                    berbagai instansi dalam dan luar negeri.</span></li>
+                            <li><i class="bi bi-check2-circle"></i> <span>Menyelenggarakan pelayanan pengembangan
+                                    berbagai bidang riset dan publikasi ilmiah.</span></li>
+                        </ul>
+                        {{-- <a href="#" class="read-more"><span>Read More</span><i
+                                class="bi bi-arrow-right"></i></a> --}}
                     </div>
 
                 </div>
@@ -212,7 +216,7 @@
 
         </section><!-- /About Section -->
 
-        <!-- Stats Section -->
+        {{-- <!-- Stats Section -->
         <section id="stats" class="stats section light-background">
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -295,39 +299,139 @@
 
             </div>
 
-        </section><!-- /About Alt Section -->
+        </section><!-- /About Alt Section --> --}}
 
         <!-- Clients Section -->
         <section id="clients" class="clients section light-background">
 
             <div class="container" data-aos="fade-up">
 
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up" style="padding-bottom: 10px">
+                    <h2>Our Client</h2>
+                    <p style="font-weight: bold">Government</p>
+                </div><!-- End Section Title -->
+
                 <div class="row gy-4">
-
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/client-1.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/clients/bappeda.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/client-2.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/clients/kai.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/client-3.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/clients/lapan.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/client-4.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/clients/zakat.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/client-4.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/clients/south-african-youth-day.png') }}" class="img-fluid"
+                            alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/client-4.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/clients/kemenparekraf.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/perhubungan.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/balailogambesar.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/bappenas.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/pertamina.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+                </div>
+
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up" style="padding-bottom: 10px">
+                    <p style="font-weight: bold">Company</p>
+                </div><!-- End Section Title -->
+
+                <div class="row gy-4">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/infomedia.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/ultimo.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/madina.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/geekseat.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/vodjo.png') }}" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/kiper.png') }}" class="img-fluid" alt="KIPER">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/quadran.png') }}" class="img-fluid" alt="quadran">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/KEL.png') }}" class="img-fluid" alt="quadran">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/rscw.png') }}" class="img-fluid" alt="quadran">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/tripaneer.png') }}" class="img-fluid" alt="quadran">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/pos.png') }}" class="img-fluid" alt="quadran">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/persib.png') }}" class="img-fluid" alt="quadran">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/kh.png') }}" class="img-fluid" alt="quadran">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/yakjin.png') }}" class="img-fluid" alt="quadran">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/hariff.png') }}" class="img-fluid" alt="quadran">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/cga.png') }}" class="img-fluid" alt="quadran">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/pupukkujang.png') }}" class="img-fluid" alt="quadran">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="{{ asset('img/clients/gsp.png') }}" class="img-fluid" alt="quadran">
+                    </div><!-- End Client Item -->
                 </div>
 
             </div>
@@ -769,7 +873,7 @@
                 <p style="font-size: 32px">President</p>
             </div><!-- End Section Title -->
 
-            <div class="container" >
+            <div class="container">
 
                 <div class="row gy-4" style="justify-content: center">
 
@@ -795,8 +899,8 @@
                 </div>
 
             </div>
-            
-            
+
+
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <p style="font-size: 32px;padding-top: 45px">Secretary</p>
@@ -885,7 +989,7 @@
                 </div>
 
             </div>
-            
+
         </section><!-- /Team Section -->
 
         <!-- Pricing Section -->
@@ -1057,12 +1161,9 @@
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
                 <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
-                    <iframe 
-                        style="border:0; width: 100%; height: 270px;" 
-                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBu2kYMRfZ7A4HuEAr4HRmkac0SI0MTrH4&q=-6.883177,107.5792616" 
-                        frameborder="0" 
-                        allowfullscreen="" 
-                        loading="lazy" 
+                    <iframe style="border:0; width: 100%; height: 270px;"
+                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBu2kYMRfZ7A4HuEAr4HRmkac0SI0MTrH4&q=-6.883177,107.5792616"
+                        frameborder="0" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
