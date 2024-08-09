@@ -118,51 +118,47 @@
             <div class="container">
                 <div class="row justify-content-center" data-aos="zoom-out">
                     <div class="col-xl-7 col-lg-9 text-center">
-                        <h1>World You Can Trust, Services You Can Rely On</h1>
-                        <p>Contoh Subheading</p>
+                        <h1>Words You Can Trust, Services You Can Rely On</h1>
+                        <p>We are present as a study and language service center both at national and international levels</p>
                     </div>
                 </div>
                 <div class="text-center" data-aos="zoom-out" data-aos-delay="100">
                     <a href="#about" class="btn-get-started">About Us</a>
                 </div>
 
-                <div class="row gy-4 mt-5">
-                    <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="100">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bi bi-easel"></i></div>
-                            <h4 class="title"><a href="">Contoh Card 1</a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                excepturi</p>
+                <div class="row gy-4 mt-5 stats">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            {{-- <img src="{{ asset('img/icons/government.png') }}" style="width: 50px;height: 50px;margin-bottom: 10px" alt=""> --}}
+                            <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Mitra Pemerintah</p>
                         </div>
-                    </div><!--End Icon Box -->
+                    </div><!-- End Stats Item -->
 
-                    <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="200">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bi bi-gem"></i></div>
-                            <h4 class="title"><a href="">Contoh Card 2</a></h4>
-                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore</p>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Mitra Perusahaan</p>
                         </div>
-                    </div><!--End Icon Box -->
+                    </div><!-- End Stats Item -->
 
-                    <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="300">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bi bi-geo-alt"></i></div>
-                            <h4 class="title"><a href="">Contoh Card 3</a></h4>
-                            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia</p>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="16"
+                                data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Mitra Sekolah</p>
                         </div>
-                    </div><!--End Icon Box -->
+                    </div><!-- End Stats Item -->
 
-                    <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="400">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bi bi-command"></i></div>
-                            <h4 class="title"><a href="">Contoh Card 4</a></h4>
-                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis</p>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="36" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Mitra Perguruan Tinggi</p>
                         </div>
-                    </div><!--End Icon Box -->
-
+                    </div><!-- End Stats Item -->
                 </div>
             </div>
 
@@ -197,13 +193,13 @@
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <h2>Mission</h2>
                         <ul>
-                            <li><i class="bi bi-check2-circle"></i> <span>Menyelenggarakan pelayanan bahasa yang
+                            <li><i class="bi bi-check2-circle" style="color: darkgrey"></i> <span>Menyelenggarakan pelayanan bahasa yang
                                     terpercaya.</span></li>
-                            <li><i class="bi bi-check2-circle"></i> <span>Menyelenggarakan pelatihan bahasa dan budaya
+                            <li><i class="bi bi-check2-circle" style="color: darkgrey"></i> <span>Menyelenggarakan pelatihan bahasa dan budaya
                                     yang inovatif.</span></li>
-                            <li><i class="bi bi-check2-circle"></i> <span>Membangun kemitraan dan kerjasama dengan
+                            <li><i class="bi bi-check2-circle" style="color: darkgrey"></i> <span>Membangun kemitraan dan kerjasama dengan
                                     berbagai instansi dalam dan luar negeri.</span></li>
-                            <li><i class="bi bi-check2-circle"></i> <span>Menyelenggarakan pelayanan pengembangan
+                            <li><i class="bi bi-check2-circle" style="color: darkgrey"></i> <span>Menyelenggarakan pelayanan pengembangan
                                     berbagai bidang riset dan publikasi ilmiah.</span></li>
                         </ul>
                         {{-- <a href="#" class="read-more"><span>Read More</span><i
@@ -216,52 +212,163 @@
 
         </section><!-- /About Section -->
 
-        {{-- <!-- Stats Section -->
-        <section id="stats" class="stats section light-background">
+        {{-- <hr class="blurry-hr"> --}}
 
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <!-- Team Section -->
+        <section id="team" class="team section">
 
-                <div class="row gy-4">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Laras Basa Board</h2>
+                <p>Meet the Teams</p>
+            </div><!-- End Section Title -->
 
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Clients</p>
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <p style="font-size: 32px">Co-Founder</p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-4" style="justify-content: center">
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
+                        data-aos-delay="400">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Riyadi Maulaya T.</h4>
+                                <span>Co-Founder</span>
+                            </div>
                         </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Projects</p>
+                    </div><!-- End Team Member -->
+                    
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
+                        data-aos-delay="400">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Indiana Ayu Alwasilah</h4>
+                                <span>Co-Founder</span>
+                            </div>
                         </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="1453"
-                                data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Hours Of Support</p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Workers</p>
-                        </div>
-                    </div><!-- End Stats Item -->
+                    </div><!-- End Team Member -->
 
                 </div>
 
             </div>
 
-        </section><!-- /Stats Section -->
 
-        <!-- About Alt Section -->
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <p style="font-size: 32px;padding-top: 45px">Secretary</p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
+                        data-aos-delay="100">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Orang ke-1</h4>
+                                <span>Jabatan</span>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Orang ke-2</h4>
+                                <span>Jabatan</span>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
+                        data-aos-delay="300">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Orang Ke-3</h4>
+                                <span>Jabatan</span>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
+                        data-aos-delay="400">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Orang ke-4</h4>
+                                <span>Jabatan</span>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                </div>
+
+            </div>
+
+        </section><!-- /Team Section -->
+
+    
+
+        {{-- <!-- About Alt Section -->
         <section id="about-alt" class="about-alt section">
 
             <div class="container">
@@ -312,7 +419,7 @@
                     <p>Government</p>
                 </div><!-- End Section Title -->
 
-                <div class="row gy-4" style="padding-bottom: 50px">
+                <div class="row gy-4" style="padding-bottom: 50px" data-aos="fade-up">
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/bappeda.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
@@ -368,7 +475,7 @@
                     <p>Company</p>
                 </div><!-- End Section Title -->
 
-                <div class="row gy-4" style="padding-bottom: 50px">
+                <div class="row gy-4" style="padding-bottom: 50px" data-aos="fade-up">
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/infomedia.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
@@ -475,7 +582,7 @@
                     <p>School</p>
                 </div><!-- End Section Title -->
 
-                <div class="row gy-4" style="padding-bottom: 50px">
+                <div class="row gy-4" style="padding-bottom: 50px" data-aos="fade-up">
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/smpdaaruttauhid.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
@@ -546,7 +653,7 @@
                     <p>University</p>
                 </div><!-- End Section Title -->
 
-                <div class="row gy-4" style="padding-bottom: 50px">
+                <div class="row gy-4" style="padding-bottom: 50px" data-aos="fade-up">
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/monash.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
@@ -876,66 +983,6 @@
                         </div>
                     </div><!-- End Service Item -->
 
-                    {{-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                        <div class="service-item item-red position-relative">
-                            <div class="icon">
-                                <svg width="100" height="100" viewBox="0 0 600 600"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                                        d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813">
-                                    </path>
-                                </svg>
-                                <i class="bi bi-bounding-box-circles"></i>
-                            </div>
-                            <a href="service-details.html" class="stretched-link">
-                                <h3>Asperiores Commodit</h3>
-                            </a>
-                            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga
-                                sit provident adipisci neque.</p>
-                            <a href="service-details.html" class="stretched-link"></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-                        <div class="service-item item-indigo position-relative">
-                            <div class="icon">
-                                <svg width="100" height="100" viewBox="0 0 600 600"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                                        d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572">
-                                    </path>
-                                </svg>
-                                <i class="bi bi-calendar4-week icon"></i>
-                            </div>
-                            <a href="service-details.html" class="stretched-link">
-                                <h3>Velit Doloremque</h3>
-                            </a>
-                            <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed
-                                animi at autem alias eius labore.</p>
-                            <a href="service-details.html" class="stretched-link"></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-                        <div class="service-item item-pink position-relative">
-                            <div class="icon">
-                                <svg width="100" height="100" viewBox="0 0 600 600"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke="none" stroke-width="0" fill="#f5f5f5"
-                                        d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762">
-                                    </path>
-                                </svg>
-                                <i class="bi bi-chat-square-text"></i>
-                            </div>
-                            <a href="service-details.html" class="stretched-link">
-                                <h3>Dolori Architecto</h3>
-                            </a>
-                            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure.
-                                Corrupti recusandae ducimus enim.</p>
-                            <a href="service-details.html" class="stretched-link"></a>
-                        </div>
-                    </div><!-- End Service Item --> --}}
-
                 </div>
 
             </div>
@@ -1118,138 +1165,7 @@
 
         </section><!-- /Portfolio Section -->
 
-        <!-- Team Section -->
-        <section id="team" class="team section light-background">
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Our Team</h2>
-                {{-- <p>Subheading untuk Team</p> --}}
-            </div><!-- End Section Title -->
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <p style="font-size: 32px">President</p>
-            </div><!-- End Section Title -->
-
-            <div class="container">
-
-                <div class="row gy-4" style="justify-content: center">
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
-                        data-aos-delay="400">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Orang ke-4</h4>
-                                <span>Jabatan</span>
-                            </div>
-                        </div>
-                    </div><!-- End Team Member -->
-
-                </div>
-
-            </div>
-
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <p style="font-size: 32px;padding-top: 45px">Secretary</p>
-            </div><!-- End Section Title -->
-
-            <div class="container">
-
-                <div class="row gy-4">
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
-                        data-aos-delay="100">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Orang ke-1</h4>
-                                <span>Jabatan</span>
-                            </div>
-                        </div>
-                    </div><!-- End Team Member -->
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
-                        data-aos-delay="200">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Orang ke-2</h4>
-                                <span>Jabatan</span>
-                            </div>
-                        </div>
-                    </div><!-- End Team Member -->
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
-                        data-aos-delay="300">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Orang Ke-3</h4>
-                                <span>Jabatan</span>
-                            </div>
-                        </div>
-                    </div><!-- End Team Member -->
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
-                        data-aos-delay="400">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Orang ke-4</h4>
-                                <span>Jabatan</span>
-                            </div>
-                        </div>
-                    </div><!-- End Team Member -->
-
-                </div>
-
-            </div>
-
-        </section><!-- /Team Section -->
+        
 
         <!-- Pricing Section -->
         <section id="pricing" class="pricing section">
