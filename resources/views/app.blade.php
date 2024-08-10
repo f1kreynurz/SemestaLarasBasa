@@ -47,13 +47,14 @@
             <a href="#" class="logo d-flex align-items-center me-auto">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
-                <img src="{{ asset('img/Logo.png') }}" alt="Company Logo">
+                <img src="{{ asset('img/Logo PT Semesta Laras Basa.png') }}" alt="Company Logo">
             </a>
 
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <li><a href="#hero" class="active">Home<br></a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#team">Team</a></li>
                     <li class="dropdown"><a href="#services"><span>Services</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
@@ -97,7 +98,6 @@
                         </ul>
                     </li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -237,19 +237,19 @@
 
                 <div class="row gy-4" style="justify-content: center">
 
-                    <div class="col-lg-3 mb-4">
+                    <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg"
+                                <img src="{{ asset('img/team/pak awo.jpg') }}"
                                     alt="wrapkit" class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Riyadi Maulaya T. </h5>
-                                    <h6 class="subtitle mb-3">Co-Founder</h6>
-                                    <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p>
+                                    {{-- <h6 class="subtitle mb-3">Co-Founder</h6> --}}
+                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p> --}}
                                     <ul class="list-inline">
                                         <li class="list-inline-item"><a href="#"
                                                 class="text-decoration-none d-block px-1"><i
@@ -270,19 +270,302 @@
                         <!-- Row -->
                     </div><!-- End Team Member -->
 
-                    <div class="col-lg-3 mb-4">
+                    <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg"
+                                <img src="{{ asset('img/team/indiana.jpg') }}"
                                     alt="wrapkit" class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
-                                    <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                                    <h6 class="subtitle mb-3">Property Specialist</h6>
-                                    <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p>
+                                    <h5 class="mt-4 font-weight-medium mb-0">Indiana Ayu Alwasilah</h5>
+                                    {{-- <h6 class="subtitle mb-3">Co-Founder</h6> --}}
+                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p> --}}
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-twitter-x"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Row -->
+                    </div><!-- End Team Member -->
+                </div>
+            </div>
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <p style="font-size: 32px;padding-top: 45px">Language Assistant Team</p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+                <div class="row gy-4" style="justify-content: center">
+                    <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <!-- Row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="{{ asset('img/team/Muhammad Irfan Ferlanda, M.Pd..jpg') }}"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="team4 col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Muhammad Irfan Ferlanda, M.Pd. </h5>
+                                    {{-- <h6 class="subtitle mb-3">Language Assistant Team</h6> --}}
+                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p> --}}
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-twitter-x"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Row -->
+                    </div><!-- End Team Member -->
+
+                    <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <!-- Row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="{{ asset('img/team/Robi Dafit Hidayat, S.Pd..jpg') }}"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="team4 col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Robi Dafit Hidayat, S.Pd.</h5>
+                                    {{-- <h6 class="subtitle mb-3">Language Assistant Team</h6> --}}
+                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p> --}}
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-twitter-x"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Row -->
+                    </div><!-- End Team Member -->
+
+                    <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                        <!-- Row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="{{ asset('img/team/Muhamad Rafy Adityana S.S..jpg') }}"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="team4 col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Muhamad Rafy Adityana S.S.</h5>
+                                    {{-- <h6 class="subtitle mb-3">Language Assistant Team</h6> --}}
+                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p> --}}
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-twitter-x"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Row -->
+                    </div><!-- End Team Member -->
+
+                    <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                        <!-- Row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="{{ asset('img/team/Nur Karunia.jpg') }}"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="team4 col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Nur Karunia, S,Pd., M.Hum.</h5>
+                                    {{-- <h6 class="subtitle mb-3">Language Assistant Team</h6> --}}
+                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p> --}}
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-twitter-x"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Row -->
+                    </div><!-- End Team Member -->
+
+                    <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                        <!-- Row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="{{ asset('img/team/Indah.jpg') }}"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="team4 col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Indah Rahmawati, M.Pd.</h5>
+                                    {{-- <h6 class="subtitle mb-3">Language Assistant Team</h6> --}}
+                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p> --}}
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-twitter-x"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Row -->
+                    </div><!-- End Team Member -->
+                </div>
+            </div>
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <p style="font-size: 32px;padding-top: 45px">Research Assistant Team</p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-4" style="justify-content: center">
+                    <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <!-- Row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="{{ asset('img/team/Prof. Eri Kurniawan, S.Pd., M.A., Ph.D..jpg') }}"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="team4 col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Prof. Eri Kurniawan, S.Pd., M.A., Ph.D. </h5>
+                                    {{-- <h6 class="subtitle mb-3">Research Assistant Team</h6> --}}
+                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p> --}}
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-twitter-x"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Row -->
+                    </div><!-- End Team Member -->
+
+                    <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <!-- Row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="{{ asset('img/team/Prof. Dr. J. Julia, S.Pd., M.Pd.jpg') }}"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="team4 col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Prof. Dr. J. Julia, S.Pd., M.Pd.</h5>
+                                    {{-- <h6 class="subtitle mb-3">Research Assistant Team</h6> --}}
+                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p> --}}
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-twitter-x"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Row -->
+                    </div><!-- End Team Member -->
+                    
+                    <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+                        <!-- Row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="{{ asset('img/team/team-3.jpg') }}"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="team4 col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Dr. Tedi Supriyadi S.H.I.,M.Ag</h5>
+                                    {{-- <h6 class="subtitle mb-3">Research Assistant Team</h6> --}}
+                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p> --}}
                                     <ul class="list-inline">
                                         <li class="list-inline-item"><a href="#"
                                                 class="text-decoration-none d-block px-1"><i
@@ -304,97 +587,148 @@
                     </div><!-- End Team Member -->
 
                 </div>
-
             </div>
-
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <p style="font-size: 32px;padding-top: 45px">Secretary</p>
+                <p style="font-size: 32px;padding-top: 45px">Training Team</p>
             </div><!-- End Section Title -->
 
             <div class="container">
 
-                <div class="row gy-4">
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
-                        data-aos-delay="100">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                <div class="row gy-4" style="justify-content: center">
+                    <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <!-- Row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="{{ asset('img/team/Erik Yuda Pratama, M.Pd..jpg') }}"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="team4 col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Erik Yuda Pratama, M.Pd. </h5>
+                                    {{-- <h6 class="subtitle mb-3">Training Team</h6> --}}
+                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p> --}}
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-twitter-x"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-linkedin"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="member-info">
-                                <h4>Orang ke-1</h4>
-                                <span>Jabatan</span>
-                            </div>
                         </div>
+                        <!-- Row -->
                     </div><!-- End Team Member -->
 
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
-                        data-aos-delay="200">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <!-- Row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="{{ asset('img/team/Fikri.jpg') }}"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="team4 col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Imanur Fikri Nugraha, M.Pd.</h5>
+                                    {{-- <h6 class="subtitle mb-3">Training Team</h6> --}}
+                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p> --}}
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-twitter-x"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-linkedin"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="member-info">
-                                <h4>Orang ke-2</h4>
-                                <span>Jabatan</span>
-                            </div>
                         </div>
+                        <!-- Row -->
                     </div><!-- End Team Member -->
 
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
-                        data-aos-delay="300">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="400">
+                        <!-- Row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="{{ asset('img/team/Riska(upscaled).jpg') }}"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="team4 col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Riska Maharlika, S.Pd.</h5>
+                                    {{-- <h6 class="subtitle mb-3">Training Team</h6> --}}
+                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p> --}}
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-twitter-x"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-linkedin"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="member-info">
-                                <h4>Orang Ke-3</h4>
-                                <span>Jabatan</span>
-                            </div>
                         </div>
+                        <!-- Row -->
                     </div><!-- End Team Member -->
 
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
-                        data-aos-delay="400">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="400">
+                        <!-- Row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="{{ asset('img/team/Syiffa.jpg') }}"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="team4 col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Syiffa A. Gantika, S.Pd.</h5>
+                                    {{-- <h6 class="subtitle mb-3">Training Team</h6> --}}
+                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p> --}}
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-twitter-x"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-linkedin"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="member-info">
-                                <h4>Orang ke-4</h4>
-                                <span>Jabatan</span>
-                            </div>
                         </div>
+                        <!-- Row -->
                     </div><!-- End Team Member -->
-
                 </div>
-
             </div>
 
         </section><!-- /Team Section -->
@@ -453,52 +787,52 @@
                 </div><!-- End Section Title -->
 
                 <div class="row gy-4" style="padding-bottom: 50px" data-aos="fade-up">
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="100">
                         <img src="{{ asset('img/clients/bappeda.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="200">
                         <img src="{{ asset('img/clients/kai.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="300">
                         <img src="{{ asset('img/clients/lapan.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="400">
                         <img src="{{ asset('img/clients/zakat.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="500">
                         <img src="{{ asset('img/clients/aseansummer.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="600">
                         <img src="{{ asset('img/clients/pemkotbandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="700">
                         <img src="{{ asset('img/clients/south-african-youth-day.png') }}" class="img-fluid"
                             alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="800">
                         <img src="{{ asset('img/clients/kemenparekraf.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="900">
                         <img src="{{ asset('img/clients/perhubungan.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1000">
                         <img src="{{ asset('img/clients/balailogambesar.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1100">
                         <img src="{{ asset('img/clients/bappenas.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1200">
                         <img src="{{ asset('img/clients/pertamina.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
                 </div>
@@ -509,103 +843,103 @@
                 </div><!-- End Section Title -->
 
                 <div class="row gy-4" style="padding-bottom: 50px" data-aos="fade-up">
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="100">
                         <img src="{{ asset('img/clients/infomedia.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="200">
                         <img src="{{ asset('img/clients/ultimo.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="300">
                         <img src="{{ asset('img/clients/madina.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="400">
                         <img src="{{ asset('img/clients/geekseat.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="500">
                         <img src="{{ asset('img/clients/vodjo.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="600">
                         <img src="{{ asset('img/clients/kiper.png') }}" class="img-fluid" alt="KIPER">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="700">
                         <img src="{{ asset('img/clients/quadran.png') }}" class="img-fluid" alt="quadran">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="800">
                         <img src="{{ asset('img/clients/KEL.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="900">
                         <img src="{{ asset('img/clients/mercuria.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1000">
                         <img src="{{ asset('img/clients/rscw.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1100">
                         <img src="{{ asset('img/clients/tripaneer.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1200">
                         <img src="{{ asset('img/clients/anindya.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1300">
                         <img src="{{ asset('img/clients/pos.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1400">
                         <img src="{{ asset('img/clients/persib.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1500">
                         <img src="{{ asset('img/clients/kh.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1600">
                         <img src="{{ asset('img/clients/yakjin.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1700">
                         <img src="{{ asset('img/clients/hariff.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1800">
                         <img src="{{ asset('img/clients/cga.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1900">
                         <img src="{{ asset('img/clients/pupukkujang.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2000">
                         <img src="{{ asset('img/clients/gsp.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2100">
                         <img src="{{ asset('img/clients/sil.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2200">
                         <img src="{{ asset('img/clients/thermochem.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2300">
                         <img src="{{ asset('img/clients/jcm.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2400">
                         <img src="{{ asset('img/clients/qenarispa.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2500">
                         <img src="{{ asset('img/clients/trans-hotel.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
                 </div>
@@ -616,68 +950,68 @@
                 </div><!-- End Section Title -->
 
                 <div class="row gy-4" style="padding-bottom: 50px" data-aos="fade-up">
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="100">
                         <img src="{{ asset('img/clients/smpdaaruttauhid.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="200">
                         <img src="{{ asset('img/clients/smkn7bandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="300">
                         <img src="{{ asset('img/clients/smkn5bandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="400">
                         <img src="{{ asset('img/clients/smkkencana.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="500">
                         <img src="{{ asset('img/clients/smknasionalbandung.png') }}" class="img-fluid"
                             alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="600">
                         <img src="{{ asset('img/clients/pasundan1bandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="700">
                         <img src="{{ asset('img/clients/pasundan1cianjur.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="800">
                         <img src="{{ asset('img/clients/pasundan2cianjur.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="900">
                         <img src="{{ asset('img/clients/smkbahagia.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1000">
                         <img src="{{ asset('img/clients/smkbpkpenabur.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1100">
                         <img src="{{ asset('img/clients/smktelkombandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1200">
                         <img src="{{ asset('img/clients/sman9bandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1300">
                         <img src="{{ asset('img/clients/smabpibandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1400">
                         <img src="{{ asset('img/clients/sman25tangerang.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1500">
                         <img src="{{ asset('img/clients/sma109.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1600">
                         <img src="{{ asset('img/clients/assyifa.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
                 </div>
@@ -688,147 +1022,147 @@
                 </div><!-- End Section Title -->
 
                 <div class="row gy-4" style="padding-bottom: 50px" data-aos="fade-up">
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="100">
                         <img src="{{ asset('img/clients/monash.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="200">
                         <img src="{{ asset('img/clients/unsw.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="300">
                         <img src="{{ asset('img/clients/nmu.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="400">
                         <img src="{{ asset('img/clients/fujen.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="500">
                         <img src="{{ asset('img/clients/utem.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="600">
                         <img src="{{ asset('img/clients/upi.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="700">
                         <img src="{{ asset('img/clients/unpad.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="800">
                         <img src="{{ asset('img/clients/itb.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="900">
                         <img src="{{ asset('img/clients/unikom.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1000">
                         <img src="{{ asset('img/clients/uib.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1100">
                         <img src="{{ asset('img/clients/telkom.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1200">
                         <img src="{{ asset('img/clients/polban.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1300">
                         <img src="{{ asset('img/clients/unjani.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1400">
                         <img src="{{ asset('img/clients/unpas.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1500">
                         <img src="{{ asset('img/clients/ui.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1600">
                         <img src="{{ asset('img/clients/atmajaya.gif') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1700">
                         <img src="{{ asset('img/clients/petra.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1800">
                         <img src="{{ asset('img/clients/isbi.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1900">
                         <img src="{{ asset('img/clients/stks.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2000">
                         <img src="{{ asset('img/clients/unsil.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2100">
                         <img src="{{ asset('img/clients/ipb.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2200">
                         <img src="{{ asset('img/clients/binus.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2300">
                         <img src="{{ asset('img/clients/maranatha.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2400">
                         <img src="{{ asset('img/clients/uny.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2500">
                         <img src="{{ asset('img/clients/trisakti.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2600">
                         <img src="{{ asset('img/clients/unpar.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2700">
                         <img src="{{ asset('img/clients/unj.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2800">
                         <img src="{{ asset('img/clients/its.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2900">
                         <img src="{{ asset('img/clients/uin.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="3000">
                         <img src="{{ asset('img/clients/ulbi.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="3100">
                         <img src="{{ asset('img/clients/stia.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="3200">
                         <img src="{{ asset('img/clients/riau.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="3300">
                         <img src="{{ asset('img/clients/unpam.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="3400">
                         <img src="{{ asset('img/clients/udayana.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="3500">
                         <img src="{{ asset('img/clients/uta.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="3600">
                         <img src="{{ asset('img/clients/unbraw.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
@@ -1023,7 +1357,7 @@
 
         </section><!-- /Services Section -->
 
-        <!-- Call To Action Section -->
+        {{-- <!-- Call To Action Section -->
         <section id="call-to-action" class="call-to-action section accent-background">
 
             <div class="container">
@@ -1040,7 +1374,7 @@
                 </div>
             </div>
 
-        </section><!-- /Call To Action Section -->
+        </section><!-- /Call To Action Section --> --}}
 
         <!-- Portfolio Section -->
         <section id="portfolio" class="portfolio section">
@@ -1201,7 +1535,7 @@
 
 
 
-        <!-- Pricing Section -->
+        {{-- <!-- Pricing Section -->
         <section id="pricing" class="pricing section">
 
             <!-- Section Title -->
@@ -1265,9 +1599,9 @@
 
             </div>
 
-        </section><!-- /Pricing Section -->
+        </section><!-- /Pricing Section --> --}}
 
-        <!-- Faq Section -->
+        {{-- <!-- Faq Section -->
         <section id="faq" class="faq section light-background">
 
             <!-- Section Title -->
@@ -1356,7 +1690,7 @@
 
             </div>
 
-        </section><!-- /Faq Section -->
+        </section><!-- /Faq Section --> --}}
 
         <!-- Contact Section -->
         <section id="contact" class="contact section">
@@ -1457,7 +1791,7 @@
             <div class="row gy-4">
                 <div class="col-lg-5 col-md-12 footer-about">
                     <a href="#" class="logo d-flex align-items-center">
-                        <span class="sitename">OnePage</span>
+                        <span class="sitename">PT. Semesta Laras Basa</span>
                     </a>
                     <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
                         valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
@@ -1475,36 +1809,34 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Services</a></li>
-                        <li><a href="#">Terms of service</a></li>
-                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Team</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-2 col-6 footer-links">
                     <h4>Our Services</h4>
                     <ul>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Product Management</a></li>
-                        <li><a href="#">Marketing</a></li>
-                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">Language Assistant</a></li>
+                        <li><a href="#">Research Assistant</a></li>
+                        <li><a href="#">Training</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                     <h4>Contact Us</h4>
-                    <p>A108 Adam Street</p>
-                    <p>New York, NY 535022</p>
-                    <p>United States</p>
-                    <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                    <p><strong>Email:</strong> <span>info@example.com</span></p>
+                    <p>21 Jl. Terusan Cibogo Atas</p>
+                    <p>Kota Bandung, Jawa Barat</p>
+                    <p>Indonesia</p>
+                    <p class="mt-4"><strong>Phone:</strong> <span>+62 8999 8888 7777</span></p>
+                    <p><strong>Email:</strong> <span>hello@larasbasa.com</span></p>
                 </div>
 
             </div>
         </div>
 
         <div class="container copyright text-center mt-4">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename">OnePage</strong> <span>All Rights
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">PT. Semesta Laras Basa</strong> <span>All Rights
                     Reserved</span>
             </p>
             <div class="credits">
@@ -1512,7 +1844,7 @@
                 <!-- You can delete the links only if you've purchased the pro version. -->
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                Designed by <a href="https://www.instagram.com/fikreynurz/">Laras Basa Team</a>
             </div>
         </div>
 
