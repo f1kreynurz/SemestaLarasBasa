@@ -119,7 +119,8 @@
                 <div class="row justify-content-center" data-aos="zoom-out">
                     <div class="col-xl-7 col-lg-9 text-center">
                         <h1>Words You Can Trust, Services You Can Rely On</h1>
-                        <p>We are present as a study and language service center both at national and international levels</p>
+                        <p>We are present as a study and language service center both at national and international
+                            levels</p>
                     </div>
                 </div>
                 <div class="text-center" data-aos="zoom-out" data-aos-delay="100">
@@ -146,8 +147,8 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="16"
-                                data-purecounter-duration="1" class="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="1"
+                                class="purecounter"></span>
                             <p>Mitra Sekolah</p>
                         </div>
                     </div><!-- End Stats Item -->
@@ -193,13 +194,17 @@
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <h2>Mission</h2>
                         <ul>
-                            <li><i class="bi bi-check2-circle" style="color: darkgrey"></i> <span>Menyelenggarakan pelayanan bahasa yang
+                            <li><i class="bi bi-check2-circle" style="color: darkgrey"></i> <span>Menyelenggarakan
+                                    pelayanan bahasa yang
                                     terpercaya.</span></li>
-                            <li><i class="bi bi-check2-circle" style="color: darkgrey"></i> <span>Menyelenggarakan pelatihan bahasa dan budaya
+                            <li><i class="bi bi-check2-circle" style="color: darkgrey"></i> <span>Menyelenggarakan
+                                    pelatihan bahasa dan budaya
                                     yang inovatif.</span></li>
-                            <li><i class="bi bi-check2-circle" style="color: darkgrey"></i> <span>Membangun kemitraan dan kerjasama dengan
+                            <li><i class="bi bi-check2-circle" style="color: darkgrey"></i> <span>Membangun kemitraan
+                                    dan kerjasama dengan
                                     berbagai instansi dalam dan luar negeri.</span></li>
-                            <li><i class="bi bi-check2-circle" style="color: darkgrey"></i> <span>Menyelenggarakan pelayanan pengembangan
+                            <li><i class="bi bi-check2-circle" style="color: darkgrey"></i> <span>Menyelenggarakan
+                                    pelayanan pengembangan
                                     berbagai bidang riset dan publikasi ilmiah.</span></li>
                         </ul>
                         {{-- <a href="#" class="read-more"><span>Read More</span><i
@@ -232,42 +237,70 @@
 
                 <div class="row gy-4" style="justify-content: center">
 
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
-                        data-aos-delay="400">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <div class="col-lg-3 mb-4">
+                        <!-- Row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="team4 col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Riyadi Maulaya T. </h5>
+                                    <h6 class="subtitle mb-3">Co-Founder</h6>
+                                    <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-twitter-x"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-linkedin"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="member-info">
-                                <h4>Riyadi Maulaya T.</h4>
-                                <span>Co-Founder</span>
-                            </div>
                         </div>
+                        <!-- Row -->
                     </div><!-- End Team Member -->
-                    
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
-                        data-aos-delay="400">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+
+                    <div class="col-lg-3 mb-4">
+                        <!-- Row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="team4 col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
+                                    <h6 class="subtitle mb-3">Property Specialist</h6>
+                                    <p>You can relay on our amazing features list and also our customer services will be
+                                        great experience.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-twitter-x"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i
+                                                    class="bi bi-linkedin"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="member-info">
-                                <h4>Indiana Ayu Alwasilah</h4>
-                                <span>Co-Founder</span>
-                            </div>
                         </div>
+                        <!-- Row -->
                     </div><!-- End Team Member -->
 
                 </div>
@@ -366,7 +399,7 @@
 
         </section><!-- /Team Section -->
 
-    
+
 
         {{-- <!-- About Alt Section -->
         <section id="about-alt" class="about-alt section">
@@ -600,7 +633,8 @@
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
-                        <img src="{{ asset('img/clients/smknasionalbandung.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/clients/smknasionalbandung.png') }}" class="img-fluid"
+                            alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
@@ -647,7 +681,7 @@
                         <img src="{{ asset('img/clients/assyifa.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
                 </div>
-                
+
                 <!-- Section Title -->
                 <div class="container section-title" data-aos="fade-up" style="padding-bottom: 40px">
                     <p>University</p>
@@ -657,147 +691,147 @@
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/monash.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/unsw.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/nmu.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/fujen.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/utem.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/upi.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/unpad.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/itb.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/unikom.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/uib.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/telkom.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/polban.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/unjani.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/unpas.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/ui.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/atmajaya.gif') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/petra.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/isbi.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/stks.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/unsil.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/ipb.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/binus.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/maranatha.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/uny.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/trisakti.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/unpar.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/unj.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/its.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/uin.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/ulbi.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/stia.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/riau.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/unpam.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/udayana.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/uta.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                     <div class="col-xl-2 col-md-3 col-6 client-logo">
                         <img src="{{ asset('img/clients/unbraw.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
-                    
+
                 </div>
 
             </div>
@@ -1032,22 +1066,22 @@
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-1.jpg') }}" class="img-fluid"
-                                alt="">
+                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-1.jpg') }}"
+                                class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>App 1</h4>
                                 <p>Lorem ipsum, dolor sit</p>
-                                <a href="{{ asset('img/masonry-portfolio/masonry-portfolio-1.jpg') }}" title="App 1"
-                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
+                                <a href="{{ asset('img/masonry-portfolio/masonry-portfolio-1.jpg') }}"
+                                    title="App 1" data-gallery="portfolio-gallery-app"
+                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}" class="img-fluid"
-                                alt="">
+                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}"
+                                class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Product 1</h4>
                                 <p>Lorem ipsum, dolor sit</p>
@@ -1060,8 +1094,8 @@
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}" class="img-fluid"
-                                alt="">
+                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}"
+                                class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Branding 1</h4>
                                 <p>Lorem ipsum, dolor sit</p>
@@ -1074,22 +1108,22 @@
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}" class="img-fluid"
-                                alt="">
+                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}"
+                                class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>App 2</h4>
                                 <p>Lorem ipsum, dolor sit</p>
-                                <a href="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}" title="App 2"
-                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
+                                <a href="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}"
+                                    title="App 2" data-gallery="portfolio-gallery-app"
+                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}" class="img-fluid"
-                                alt="">
+                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}"
+                                class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Product 2</h4>
                                 <p>Lorem ipsum, dolor sit</p>
@@ -1102,8 +1136,8 @@
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}" class="img-fluid"
-                                alt="">
+                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}"
+                                class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Branding 2</h4>
                                 <p>Lorem ipsum, dolor sit</p>
@@ -1116,22 +1150,22 @@
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}" class="img-fluid"
-                                alt="">
+                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}"
+                                class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>App 3</h4>
                                 <p>Lorem ipsum, dolor sit</p>
-                                <a href="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}" title="App 3"
-                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
+                                <a href="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}"
+                                    title="App 3" data-gallery="portfolio-gallery-app"
+                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}" class="img-fluid"
-                                alt="">
+                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}"
+                                class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Product 3</h4>
                                 <p>Lorem ipsum, dolor sit</p>
@@ -1144,8 +1178,8 @@
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}" class="img-fluid"
-                                alt="">
+                            <img src="{{ asset('img/masonry-portfolio/masonry-portfolio-2.jpg') }}"
+                                class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Branding 3</h4>
                                 <p>Lorem ipsum, dolor sit</p>
@@ -1165,7 +1199,7 @@
 
         </section><!-- /Portfolio Section -->
 
-        
+
 
         <!-- Pricing Section -->
         <section id="pricing" class="pricing section">
@@ -1374,8 +1408,8 @@
                     </div>
 
                     <div class="col-lg-8">
-                        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-                            data-aos-delay="200">
+                        <form action="forms/contact.php" method="post" class="php-email-form"
+                            data-aos="fade-up" data-aos-delay="200">
                             <div class="row gy-4">
 
                                 <div class="col-md-6">
@@ -1389,8 +1423,8 @@
                                 </div>
 
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="subject" placeholder="Subject"
-                                        required="">
+                                    <input type="text" class="form-control" name="subject"
+                                        placeholder="Subject" required="">
                                 </div>
 
                                 <div class="col-md-12">
@@ -1470,7 +1504,8 @@
         </div>
 
         <div class="container copyright text-center mt-4">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename">OnePage</strong> <span>All Rights Reserved</span>
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">OnePage</strong> <span>All Rights
+                    Reserved</span>
             </p>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
