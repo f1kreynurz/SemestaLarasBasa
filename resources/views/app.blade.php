@@ -241,8 +241,8 @@
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="{{ asset('img/team/pak awo.jpg') }}"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img src="{{ asset('img/team/pak awo.jpg') }}" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
@@ -274,8 +274,8 @@
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="{{ asset('img/team/indiana.jpg') }}"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img src="{{ asset('img/team/indiana.jpg') }}" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
@@ -316,8 +316,8 @@
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="{{ asset('img/team/Muhammad Irfan Ferlanda, M.Pd..jpg') }}"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img src="{{ asset('img/team/Muhammad Irfan Ferlanda, M.Pd..jpg') }}" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
@@ -349,8 +349,8 @@
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="{{ asset('img/team/Robi Dafit Hidayat, S.Pd..jpg') }}"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img src="{{ asset('img/team/Robi Dafit Hidayat, S.Pd..jpg') }}" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
@@ -382,8 +382,8 @@
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="{{ asset('img/team/Muhamad Rafy Adityana S.S..jpg') }}"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img src="{{ asset('img/team/Muhamad Rafy Adityana S.S..jpg') }}" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
@@ -415,8 +415,8 @@
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="{{ asset('img/team/Nur Karunia.jpg') }}"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img src="{{ asset('img/team/Nur Karunia.jpg') }}" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
@@ -448,8 +448,8 @@
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="{{ asset('img/team/Indah.jpg') }}"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img src="{{ asset('img/team/Indah.jpg') }}" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
@@ -496,7 +496,8 @@
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
-                                    <h5 class="mt-4 font-weight-medium mb-0">Prof. Eri Kurniawan, S.Pd., M.A., Ph.D. </h5>
+                                    <h5 class="mt-4 font-weight-medium mb-0">Prof. Eri Kurniawan, S.Pd., M.A., Ph.D.
+                                    </h5>
                                     {{-- <h6 class="subtitle mb-3">Research Assistant Team</h6> --}}
                                     {{-- <p>You can relay on our amazing features list and also our customer services will be
                                         great experience.</p> --}}
@@ -524,8 +525,8 @@
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="{{ asset('img/team/Prof. Dr. J. Julia, S.Pd., M.Pd.jpg') }}"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img src="{{ asset('img/team/Prof. Dr. J. Julia, S.Pd., M.Pd.jpg') }}" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
@@ -552,13 +553,13 @@
                         </div>
                         <!-- Row -->
                     </div><!-- End Team Member -->
-                    
+
                     <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="{{ asset('img/team/team-3.jpg') }}"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img src="{{ asset('img/team/tedi.jpg') }}" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
@@ -601,8 +602,8 @@
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="{{ asset('img/team/Erik Yuda Pratama, M.Pd..jpg') }}"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img src="{{ asset('img/team/Erik Yuda Pratama, M.Pd..jpg') }}" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
@@ -634,8 +635,8 @@
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="{{ asset('img/team/Fikri.jpg') }}"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img src="{{ asset('img/team/Fikri.jpg') }}" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
@@ -667,8 +668,8 @@
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="{{ asset('img/team/Riska(upscaled).jpg') }}"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img src="{{ asset('img/team/Riska(upscaled).jpg') }}" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
@@ -700,8 +701,8 @@
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="{{ asset('img/team/Syiffa.jpg') }}"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img src="{{ asset('img/team/Syiffa.jpg') }}" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
@@ -787,52 +788,52 @@
                 </div><!-- End Section Title -->
 
                 <div class="row gy-4" style="padding-bottom: 50px" data-aos="fade-up">
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/bappeda.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/kai.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/lapan.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="400">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/zakat.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="500">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/aseansummer.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="600">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/pemkotbandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="700">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/south-african-youth-day.png') }}" class="img-fluid"
                             alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="800">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/kemenparekraf.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="900">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/perhubungan.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/balailogambesar.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1100">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/bappenas.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1200">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/pertamina.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
                 </div>
@@ -843,103 +844,103 @@
                 </div><!-- End Section Title -->
 
                 <div class="row gy-4" style="padding-bottom: 50px" data-aos="fade-up">
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/infomedia.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/ultimo.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/madina.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="400">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/geekseat.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="500">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/vodjo.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="600">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/kiper.png') }}" class="img-fluid" alt="KIPER">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="700">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/quadran.png') }}" class="img-fluid" alt="quadran">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="800">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/KEL.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="900">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/mercuria.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/rscw.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1100">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/tripaneer.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1200">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/anindya.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1300">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/pos.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1400">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/persib.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1500">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/kh.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1600">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/yakjin.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1700">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/hariff.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1800">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/cga.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1900">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/pupukkujang.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2000">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/gsp.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2100">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/sil.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2200">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/thermochem.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2300">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/jcm.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2400">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/qenarispa.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2500">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/trans-hotel.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
                 </div>
@@ -950,68 +951,68 @@
                 </div><!-- End Section Title -->
 
                 <div class="row gy-4" style="padding-bottom: 50px" data-aos="fade-up">
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/smpdaaruttauhid.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/smkn7bandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/smkn5bandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="400">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/smkkencana.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="500">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/smknasionalbandung.png') }}" class="img-fluid"
                             alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="600">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/pasundan1bandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="700">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/pasundan1cianjur.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="800">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/pasundan2cianjur.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="900">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/smkbahagia.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/smkbpkpenabur.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1100">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/smktelkombandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1200">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/sman9bandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1300">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/smabpibandung.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1400">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/sman25tangerang.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1500">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/sma109.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1600">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/assyifa.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
                 </div>
@@ -1022,147 +1023,147 @@
                 </div><!-- End Section Title -->
 
                 <div class="row gy-4" style="padding-bottom: 50px" data-aos="fade-up">
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/monash.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/unsw.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/nmu.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="400">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/fujen.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="500">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/utem.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="600">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/upi.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="700">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/unpad.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="800">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/itb.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="900">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/unikom.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/uib.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1100">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/telkom.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1200">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/polban.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1300">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/unjani.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1400">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/unpas.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1500">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/ui.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1600">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/atmajaya.gif') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1700">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/petra.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1800">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/isbi.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="1900">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/stks.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2000">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/unsil.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2100">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/ipb.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2200">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/binus.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2300">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/maranatha.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2400">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/uny.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2500">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/trisakti.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2600">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/unpar.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2700">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/unj.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2800">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/its.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="2900">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/uin.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="3000">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/ulbi.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="3100">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/stia.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="3200">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/riau.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="3300">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/unpam.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="3400">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/udayana.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="3500">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/uta.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
-                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up" data-aos-delay="3600">
+                    <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
                         <img src="{{ asset('img/clients/unbraw.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
@@ -1735,15 +1736,16 @@
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h3>Email Us</h3>
-                                <p>customerservice@semestalarasbasa.com</p>
+                                <p>customerservice@larasbasa.com</p>
                             </div>
                         </div><!-- End Info Item -->
 
                     </div>
 
                     <div class="col-lg-8">
-                        <form action="forms/contact.php" method="post" class="php-email-form"
+                        <form action="{{ route('contact.store') }}" method="POST" class="php-email-form" id="contactForm"
                             data-aos="fade-up" data-aos-delay="200">
+                            @csrf
                             <div class="row gy-4">
 
                                 <div class="col-md-6">
@@ -1869,6 +1871,52 @@
 
     <!-- Main JS File -->
     <script src="{{ asset('js/main.js') }}"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const form = e.target;
+            const formData = new FormData(form);
+    
+            document.querySelector('.loading').style.display = 'block';
+            document.querySelector('.error-message').style.display = 'none';
+            document.querySelector('.sent-message').style.display = 'none';
+    
+            fetch('{{ route("contact.store") }}', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest',
+                    'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value
+                }
+            })
+            .then(response => {
+                // Cek apakah respon berhasil dan formatnya JSON
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log(data); // Debugging: Log respon untuk melihat apakah formatnya benar
+                document.querySelector('.loading').style.display = 'none';
+                if (data.success) {
+                    document.querySelector('.sent-message').style.display = 'block';
+                    form.reset();
+                } else {
+                    document.querySelector('.error-message').style.display = 'block';
+                    document.querySelector('.error-message').innerText = data.message || 'Something went wrong, please try again.';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error); // Debugging: Log error untuk diagnosa lebih lanjut
+                document.querySelector('.loading').style.display = 'none';
+                document.querySelector('.error-message').style.display = 'block';
+                document.querySelector('.error-message').innerText = 'Failed to send message!';
+            });
+        });
+    </script>
+    
 
 </body>
 
