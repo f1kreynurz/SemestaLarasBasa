@@ -1,43 +1,30 @@
-/**
-* Template Name: OnePage
-* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-* Updated: Jun 29 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
-/* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
   --nav-font: "Poppins",  sans-serif;
 }
 
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #124265; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #2487ce; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --background-color: #ffffff;
+  --default-color: #444444;
+  --heading-color: #124265;
+  --accent-color: #2487ce;
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff;
 }
 
-/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+
 :root {
-  --nav-color: #124265;  /* The default color of the main navmenu links */
-  --nav-hover-color: #2487ce; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #124265; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #2487ce; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #124265; 
+  --nav-hover-color: #2487ce;
+  --nav-mobile-background-color: #ffffff;
+  --nav-dropdown-background-color: #ffffff;
+  --nav-dropdown-color: #124265;
+  --nav-dropdown-hover-color: #2487ce;
 }
 
-/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
+
 
 .light-background {
   --background-color: #f6fafd;
@@ -61,14 +48,12 @@
   --contrast-color: #ffffff;
 }
 
-/* Smooth scroll */
+
 :root {
   scroll-behavior: smooth;
 }
 
-/*--------------------------------------------------------------
-# General Styling & Shared Classes
---------------------------------------------------------------*/
+
 body {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -105,8 +90,7 @@ h6 {
   margin: 30px auto;
 }
 
-/* Pulsating Play Button
-------------------------------*/
+
 .pulsating-play-btn {
   width: 94px;
   height: 94px;
@@ -184,8 +168,7 @@ h6 {
   }
 }
 
-/* PHP Email Form Messages
-------------------------------*/
+
 .php-email-form .error-message {
   display: none;
   background: #df1529;
@@ -236,9 +219,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Global Header
---------------------------------------------------------------*/
+
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -302,10 +283,8 @@ h6 {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Navmenu - Desktop */
+
+
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;
@@ -417,7 +396,7 @@ h6 {
   }
 }
 
-/* Navmenu - Mobile */
+
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
     color: var(--nav-color);
@@ -543,9 +522,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Global Footer
---------------------------------------------------------------*/
+
 .footer {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -669,9 +646,7 @@ h6 {
   color: color-mix(in srgb, var(--contrast-color), transparent 30%);
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
+
 #preloader {
   position: fixed;
   inset: 0;
@@ -704,9 +679,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Scroll Top Button
---------------------------------------------------------------*/
+
 .scroll-top {
   position: fixed;
   visibility: hidden;
@@ -737,18 +710,14 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
+
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
-# Global Page Titles & Breadcrumbs
---------------------------------------------------------------*/
+
 .page-title {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -789,9 +758,7 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-/*--------------------------------------------------------------
-# Global Sections
---------------------------------------------------------------*/
+
 section,
 .section {
   color: var(--default-color);
@@ -809,9 +776,7 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Global Section Titles
---------------------------------------------------------------*/
+
 .section-title {
   text-align: center;
   padding-bottom: 60px;
@@ -829,9 +794,7 @@ section,
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+
 .hero {
   width: 100%;
   min-height: calc(100vh - 100px);
@@ -848,7 +811,7 @@ section,
   background: color-mix(in srgb, var(--background-color), transparent 30%);
   position: absolute;
   inset: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 .hero img {
@@ -858,7 +821,7 @@ section,
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 1;
+  z-index: 2;
 }
 
 .hero .container {
@@ -973,7 +936,7 @@ section,
   background: color-mix(in srgb, var(--background-color), transparent 30%);
   position: absolute;
   inset: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 .hero img {
@@ -983,7 +946,7 @@ section,
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 1;
+  z-index: 2;
 }
 
 .hero .container {
@@ -1084,9 +1047,7 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
+
 .about ul {
   list-style: none;
   padding: 0;
@@ -1134,9 +1095,7 @@ section,
   transform: translate(5px, 0);
 }
 
-/*--------------------------------------------------------------
-# Stats Section
---------------------------------------------------------------*/
+
 .stats {
   padding: 30px 0;
 }
@@ -1162,9 +1121,7 @@ section,
   font-weight: 600;
 }
 
-/*--------------------------------------------------------------
-# About Alt Section
---------------------------------------------------------------*/
+
 .about-alt .content h3 {
   font-size: 1.75rem;
   font-weight: 700;
@@ -1197,9 +1154,7 @@ section,
   top: calc(50% - 47px);
 }
 
-/*--------------------------------------------------------------
-# Clients Section
---------------------------------------------------------------*/
+
 .clients {
   padding: 20px 0;
 }
@@ -1231,9 +1186,7 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
+
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -1318,9 +1271,7 @@ section,
   background-color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Services Section
---------------------------------------------------------------*/
+
 .services .service-item {
   background-color: var(--surface-color);
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
@@ -1447,9 +1398,7 @@ section,
   fill: #f3268c;
 }
 
-/*--------------------------------------------------------------
-# Call To Action Section
---------------------------------------------------------------*/
+
 .call-to-action {
   padding: 80px 0;
   position: relative;
@@ -1485,9 +1434,7 @@ section,
   color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Portfolio Section
---------------------------------------------------------------*/
+
 .portfolio .portfolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -1585,9 +1532,7 @@ section,
   bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Team Section
---------------------------------------------------------------*/
+
 .team4 .subtitle {
   color: #8d97ad;
   line-height: 24px;
@@ -1676,9 +1621,7 @@ color: #316ce8;
   bottom: 15px;
 }
 
-/*--------------------------------------------------------------
-# Pricing Section
---------------------------------------------------------------*/
+
 .pricing .pricing-item {
   background-color: var(--surface-color);
   padding: 60px 40px;
@@ -1795,9 +1738,7 @@ color: #316ce8;
   background: color-mix(in srgb, var(--background-color), transparent 92%);
 }
 
-/*--------------------------------------------------------------
-# Faq Section
---------------------------------------------------------------*/
+
 .faq .faq-container .faq-item {
   background-color: var(--surface-color);
   position: relative;
@@ -1881,9 +1822,7 @@ color: #316ce8;
   color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
+
 .contact .info-item+.info-item {
   margin-top: 40px;
 }
@@ -1956,9 +1895,7 @@ color: #316ce8;
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details Section
---------------------------------------------------------------*/
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -2131,9 +2068,7 @@ color: #316ce8;
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# Service Details Section
---------------------------------------------------------------*/
+
 .service-details .services-list {
   background-color: var(--surface-color);
   padding: 10px 30px;
@@ -2197,9 +2132,7 @@ color: #316ce8;
   color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
+
 .starter-section {
-  /* Add your styles here */
+ 
 }

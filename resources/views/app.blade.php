@@ -112,15 +112,34 @@
 
         <!-- Hero Section -->
         <section id="hero" class="hero section">
-
-            <img src="{{ asset('img/office.jpg') }}" alt="" data-aos="fade-in" class="">
+            <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="{{ asset('img/hero/1.jpg') }}" class="d-block w-100" alt="Office 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{{ asset('img/hero/2.jpg') }}" class="d-block w-100" alt="Office 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{{ asset('img/hero/3.jpg') }}" class="d-block w-100" alt="Office 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
 
             <div class="container">
                 <div class="row justify-content-center" data-aos="zoom-out">
                     <div class="col-xl-7 col-lg-9 text-center">
                         <h1>Words You Can Trust, Services You Can Rely On</h1>
-                        <p>We are present as a study and language service center both at national and international
-                            levels</p>
                     </div>
                 </div>
                 <div class="text-center" data-aos="zoom-out" data-aos-delay="100">
@@ -162,8 +181,9 @@
                     </div><!-- End Stats Item -->
                 </div>
             </div>
+        </section>
+        <!-- /Hero Section -->
 
-        </section><!-- /Hero Section -->
 
         <!-- About Section -->
         <section id="about" class="about section">
@@ -247,23 +267,6 @@
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Riyadi Maulaya T. </h5>
-                                    {{-- <h6 class="subtitle mb-3">Co-Founder</h6> --}}
-                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p> --}}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-twitter-x"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -280,23 +283,6 @@
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Indiana Ayu Alwasilah</h5>
-                                    {{-- <h6 class="subtitle mb-3">Co-Founder</h6> --}}
-                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p> --}}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-twitter-x"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -312,7 +298,7 @@
 
             <div class="container">
                 <div class="row gy-4" style="justify-content: center">
-                    <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
@@ -322,30 +308,13 @@
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Muhammad Irfan Ferlanda, M.Pd. </h5>
-                                    {{-- <h6 class="subtitle mb-3">Language Assistant Team</h6> --}}
-                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p> --}}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-twitter-x"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <!-- Row -->
                     </div><!-- End Team Member -->
 
-                    <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
@@ -355,30 +324,13 @@
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Robi Dafit Hidayat, S.Pd.</h5>
-                                    {{-- <h6 class="subtitle mb-3">Language Assistant Team</h6> --}}
-                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p> --}}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-twitter-x"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <!-- Row -->
                     </div><!-- End Team Member -->
 
-                    <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
@@ -388,30 +340,15 @@
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Muhamad Rafy Adityana S.S.</h5>
-                                    {{-- <h6 class="subtitle mb-3">Language Assistant Team</h6> --}}
-                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p> --}}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-twitter-x"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <!-- Row -->
                     </div><!-- End Team Member -->
+                </div>
 
-                    <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="row gy-4" style="justify-content: center">
+                    <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="400">
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
@@ -421,30 +358,13 @@
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Nur Karunia, S,Pd., M.Hum.</h5>
-                                    {{-- <h6 class="subtitle mb-3">Language Assistant Team</h6> --}}
-                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p> --}}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-twitter-x"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <!-- Row -->
                     </div><!-- End Team Member -->
 
-                    <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="400">
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12">
@@ -454,23 +374,6 @@
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Indah Rahmawati, M.Pd.</h5>
-                                    {{-- <h6 class="subtitle mb-3">Language Assistant Team</h6> --}}
-                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p> --}}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-twitter-x"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -498,23 +401,6 @@
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Prof. Eri Kurniawan, S.Pd., M.A., Ph.D.
                                     </h5>
-                                    {{-- <h6 class="subtitle mb-3">Research Assistant Team</h6> --}}
-                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p> --}}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-twitter-x"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -531,23 +417,6 @@
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Prof. Dr. J. Julia, S.Pd., M.Pd.</h5>
-                                    {{-- <h6 class="subtitle mb-3">Research Assistant Team</h6> --}}
-                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p> --}}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-twitter-x"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -564,23 +433,6 @@
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Dr. Tedi Supriyadi S.H.I.,M.Ag</h5>
-                                    {{-- <h6 class="subtitle mb-3">Research Assistant Team</h6> --}}
-                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p> --}}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-twitter-x"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -608,23 +460,6 @@
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Erik Yuda Pratama, M.Pd. </h5>
-                                    {{-- <h6 class="subtitle mb-3">Training Team</h6> --}}
-                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p> --}}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-twitter-x"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -641,23 +476,6 @@
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Imanur Fikri Nugraha, M.Pd.</h5>
-                                    {{-- <h6 class="subtitle mb-3">Training Team</h6> --}}
-                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p> --}}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-twitter-x"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -674,23 +492,6 @@
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Riska Maharlika, S.Pd.</h5>
-                                    {{-- <h6 class="subtitle mb-3">Training Team</h6> --}}
-                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p> --}}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-twitter-x"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -707,23 +508,6 @@
                             <div class="team4 col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 class="mt-4 font-weight-medium mb-0">Syiffa A. Gantika, S.Pd.</h5>
-                                    {{-- <h6 class="subtitle mb-3">Training Team</h6> --}}
-                                    {{-- <p>You can relay on our amazing features list and also our customer services will be
-                                        great experience.</p> --}}
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-twitter-x"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-facebook"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i
-                                                    class="bi bi-linkedin"></i></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -734,47 +518,6 @@
 
         </section><!-- /Team Section -->
 
-
-
-        {{-- <!-- About Alt Section -->
-        <section id="about-alt" class="about-alt section">
-
-            <div class="container">
-
-                <div class="row gy-4">
-                    <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-                        <img src="{{ asset('img/about.jpg') }}" class="img-fluid" alt="">
-                        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                            class="glightbox pulsating-play-btn"></a>
-                    </div>
-                    <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                        <p class="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore
-                            magna aliqua.
-                        </p>
-                        <ul>
-                            <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</span></li>
-                            <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in
-                                    voluptate velit.</span></li>
-                            <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
-                                    storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-                        </ul>
-                        <p>
-                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-        </section><!-- /About Alt Section --> --}}
 
         <!-- Clients Section -->
         <section id="clients" class="clients section light-background">
@@ -826,7 +569,7 @@
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
-                        <img src="{{ asset('img/clients/balailogambesar.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/clients/midc.png') }}" class="img-fluid" alt="">
                     </div><!-- End Client Item -->
 
                     <div class="col-xl-2 col-md-3 col-6 client-logo" data-aos="fade-up">
@@ -1358,25 +1101,6 @@
 
         </section><!-- /Services Section -->
 
-        {{-- <!-- Call To Action Section -->
-        <section id="call-to-action" class="call-to-action section accent-background">
-
-            <div class="container">
-                <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="col-xl-10">
-                        <div class="text-center">
-                            <h3>Call To Action</h3>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum.</p>
-                            <a class="cta-btn" href="#">Call To Action</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section><!-- /Call To Action Section --> --}}
-
         <!-- Portfolio Section -->
         <section id="portfolio" class="portfolio section">
 
@@ -1535,164 +1259,6 @@
         </section><!-- /Portfolio Section -->
 
 
-
-        {{-- <!-- Pricing Section -->
-        <section id="pricing" class="pricing section">
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Pricing</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div><!-- End Section Title -->
-
-            <div class="container">
-
-                <div class="row g-4 g-lg-0">
-
-                    <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="pricing-item">
-                            <h3>Free Plan</h3>
-                            <h4><sup>$</sup>0<span> / month</span></h4>
-                            <ul>
-                                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span>
-                                </li>
-                                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis
-                                        hendrerit</span></li>
-                            </ul>
-                            <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                        </div>
-                    </div><!-- End Pricing Item -->
-
-                    <div class="col-lg-4 featured" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="pricing-item">
-                            <h3>Business Plan</h3>
-                            <h4><sup>$</sup>29<span> / month</span></h4>
-                            <ul>
-                                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                            </ul>
-                            <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                        </div>
-                    </div><!-- End Pricing Item -->
-
-                    <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="pricing-item">
-                            <h3>Developer Plan</h3>
-                            <h4><sup>$</sup>49<span> / month</span></h4>
-                            <ul>
-                                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                            </ul>
-                            <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                        </div>
-                    </div><!-- End Pricing Item -->
-
-                </div>
-
-            </div>
-
-        </section><!-- /Pricing Section --> --}}
-
-        {{-- <!-- Faq Section -->
-        <section id="faq" class="faq section light-background">
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Frequently Asked Questions</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div><!-- End Section Title -->
-
-            <div class="container">
-
-                <div class="row justify-content-center">
-
-                    <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
-
-                        <div class="faq-container">
-
-                            <div class="faq-item faq-active">
-                                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
-                                <div class="faq-content">
-                                    <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus
-                                        laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor
-                                        rhoncus dolor purus non.</p>
-                                </div>
-                                <i class="faq-toggle bi bi-chevron-right"></i>
-                            </div><!-- End Faq item-->
-
-                            <div class="faq-item">
-                                <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
-                                <div class="faq-content">
-                                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
-                                        interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
-                                        scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-                                        Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                                </div>
-                                <i class="faq-toggle bi bi-chevron-right"></i>
-                            </div><!-- End Faq item-->
-
-                            <div class="faq-item">
-                                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
-                                <div class="faq-content">
-                                    <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
-                                        Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl
-                                        suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis
-                                        convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                    </p>
-                                </div>
-                                <i class="faq-toggle bi bi-chevron-right"></i>
-                            </div><!-- End Faq item-->
-
-                            <div class="faq-item">
-                                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
-                                <div class="faq-content">
-                                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
-                                        interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
-                                        scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-                                        Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                                </div>
-                                <i class="faq-toggle bi bi-chevron-right"></i>
-                            </div><!-- End Faq item-->
-
-                            <div class="faq-item">
-                                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
-                                <div class="faq-content">
-                                    <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse
-                                        in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
-                                        suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                                    </p>
-                                </div>
-                                <i class="faq-toggle bi bi-chevron-right"></i>
-                            </div><!-- End Faq item-->
-
-                            <div class="faq-item">
-                                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
-                                <div class="faq-content">
-                                    <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed
-                                        in suscipit sequi. Distinctio ipsam dolore et.</p>
-                                </div>
-                                <i class="faq-toggle bi bi-chevron-right"></i>
-                            </div><!-- End Faq item-->
-
-                        </div>
-
-                    </div><!-- End Faq Column-->
-
-                </div>
-
-            </div>
-
-        </section><!-- /Faq Section --> --}}
-
         <!-- Contact Section -->
         <section id="contact" class="contact section">
 
@@ -1743,8 +1309,8 @@
                     </div>
 
                     <div class="col-lg-8">
-                        <form action="{{ route('contact.store') }}" method="POST" class="php-email-form" id="contactForm"
-                            data-aos="fade-up" data-aos-delay="200">
+                        <form action="{{ route('contact.store') }}" method="POST" class="php-email-form"
+                            id="contactForm" data-aos="fade-up" data-aos-delay="200">
                             @csrf
                             <div class="row gy-4">
 
@@ -1874,49 +1440,50 @@
     <script>
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            
+
             const form = e.target;
             const formData = new FormData(form);
-    
+
             document.querySelector('.loading').style.display = 'block';
             document.querySelector('.error-message').style.display = 'none';
             document.querySelector('.sent-message').style.display = 'none';
-    
-            fetch('{{ route("contact.store") }}', {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'X-Requested-With': 'XMLHttpRequest',
-                    'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value
-                }
-            })
-            .then(response => {
-                // Cek apakah respon berhasil dan formatnya JSON
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => {
-                console.log(data); // Debugging: Log respon untuk melihat apakah formatnya benar
-                document.querySelector('.loading').style.display = 'none';
-                if (data.success) {
-                    document.querySelector('.sent-message').style.display = 'block';
-                    form.reset();
-                } else {
+
+            fetch('{{ route('contact.store') }}', {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'X-Requested-With': 'XMLHttpRequest',
+                        'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value
+                    }
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json(); // Ubah respons ke JSON
+                })
+                .then(data => {
+                    document.querySelector('.loading').style.display = 'none';
+
+                    // Cek apakah data.success benar-benar true
+                    if (data.success) {
+                        document.querySelector('.sent-message').style.display = 'block';
+                        form.reset();
+                    } else {
+                        document.querySelector('.error-message').style.display = 'block';
+                        document.querySelector('.error-message').innerText = data.message ||
+                            'Something went wrong, please try again.';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error); // Log error untuk diagnosa lebih lanjut
+                    document.querySelector('.loading').style.display = 'none';
                     document.querySelector('.error-message').style.display = 'block';
-                    document.querySelector('.error-message').innerText = data.message || 'Something went wrong, please try again.';
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error); // Debugging: Log error untuk diagnosa lebih lanjut
-                document.querySelector('.loading').style.display = 'none';
-                document.querySelector('.error-message').style.display = 'block';
-                document.querySelector('.error-message').innerText = 'Failed to send message!';
-            });
+                    document.querySelector('.error-message').innerText = 'Failed to send message!';
+                });
         });
     </script>
-    
+
 
 </body>
 
