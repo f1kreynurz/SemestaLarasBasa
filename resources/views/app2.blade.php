@@ -224,46 +224,29 @@
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="about-col">
                             <div class="img">
-                                <img src="{{ asset('new/img/about-vision.jpg') }}" alt="" class="img-fluid">
+                                <img src="{{ asset('new/img/about-mission2.jpg') }}" alt="" class="img-fluid">
                                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
                             </div>
                             <h2 class="title"><a href="#">Our Vision</a></h2>
                             <p>
-                                The vision of PT Semesta Laras Basa is to become a center for language and research
-                                services at both national and international levels.
+                                Become a center for language and research services at both national and international levels.
                             </p>
                         </div>
                     </div>
 
-                    {{-- <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="about-col">
-                            <div class="img">
-                                <img src="{{ asset('new/img/about-plan.jpg') }}" alt="" class="img-fluid">
-                                <div class="icon"><i class="ion-ios-list-outline"></i></div>
-                            </div>
-                            <h2 class="title"><a href="#">Our Plan</a></h2>
-                            <p>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium,
-                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                                beatae vitae dicta sunt explicabo.
-                            </p>
-                        </div>
-                    </div> --}}
-
                     <div class="col-md-4 wow fadeInUp">
                         <div class="about-col">
                             <div class="img">
-                                <img src="{{ asset('new/img/about-mission.jpg') }}" alt=""
+                                <img src="{{ asset('new/img/about-mission1.jpg') }}" alt=""
                                     class="img-fluid">
                                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                             </div>
-                            <h2 class="title"><a href="#">Our Mission</a></h2>
-                            <p>
-                                The mission of PT. Semesta Laras Basa is to provide reliable language services, deliver
-                                innovative language and cultural training, build partnerships and collaborations with
-                                various domestic and international institutions, and offer services in the development
-                                of various fields of research and scientific publication.
-                            </p>
+                            <h2 class="title"><a href="#">Our Missions</a></h2>
+                            <ul>
+                                <li>To deliver high-quality language solutions</li>
+                                <li>To advance language and research excellence</li>
+                                <li>To promote collaborative research and publications</li>
+                            </ul>
                         </div>
                     </div>
 
@@ -286,44 +269,24 @@
                 </header>
 
                 <div class="row">
-
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                        <div class="icon"><i class="ion-chatbubbles"></i></div>
+                        <h4 class="title"><a href="">Language Assistant</a></h4>
                         <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
                             excepturi sint occaecati cupiditate non provident</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                        <div class="icon"><i class="ion-ios-flask"></i></div>
+                        <h4 class="title"><a href="">Research Assistant</a></h4>
                         <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                             ex ea commodo consequat tarad limino ata</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-ios-paper-outline"></i></div>
-                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                        <div class="icon"><i class="ion-ios-people"></i></div>
+                        <h4 class="title"><a href="">Training</a></h4>
                         <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                             dolore eu fugiat nulla pariatur</p>
                     </div>
-                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-                        <h4 class="title"><a href="">Magni Dolores</a></h4>
-                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia deserunt mollit anim id est laborum</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
-                        <h4 class="title"><a href="">Nemo Enim</a></h4>
-                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditiis praesentium voluptatum deleniti atque</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-ios-people-outline"></i></div>
-                        <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-                        <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero
-                            tempore, cum soluta nobis est eligendi</p>
-                    </div>
-
                 </div>
 
             </div>
@@ -562,7 +525,7 @@
                     <img src="{{ asset('new/img/clients/south-african-youth-day.png') }}" alt="">
                     <img src="{{ asset('new/img/clients/kemenparekraf.png') }}" alt="">
                     <img src="{{ asset('new/img/clients/perhubungan.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/midc.png') }}" alt=""> --}}
+                    <img src="{{ asset('new/img/clients/midc.png') }}" alt="">
                     <img src="{{ asset('new/img/clients/bappenas.png') }}" alt="">
                     <img src="{{ asset('new/img/clients/pertamina.png') }}" alt="">
                 </div>

@@ -736,11 +736,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col p {
-  font-size: 14px;
-  line-height: 24px;
+  /* font-size: 14px;
+  line-height: 24px; */
   color: #333;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
+  text-align: center;
+}
+
+#about .about-col ul {
+  color: #333;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 /* Services Section
