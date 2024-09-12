@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicons -->
-    <link href="{{ asset('new/img/logo.png') }}" rel="icon">
+    <link href="{{ asset('new/img/logo-title-2.png') }}" rel="icon">
     <link href="{{ asset('new/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -29,12 +29,6 @@
     <!-- Main Stylesheet File -->
     <link href="{{ asset('new/css/style.css') }}" rel="stylesheet">
 
-    <!-- =======================================================
-    Theme Name: BizPage
-    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 
@@ -47,8 +41,8 @@
         <div class="container-fluid">
 
             <div id="logo" class="pull-left">
-                <img src="{{ asset('new/img/logo-1.png') }}" alt="" title="" />
-                <h1><a href="#intro" class="scrollto" style="text-decoration: none;">Semesta Laras Basa</a></h1>
+                <a href="#intro" class="scrollto"><img src="{{ asset('new/img/logo-2.png') }}" alt="" title="" /></a>
+                {{-- <h1><a href="#intro" class="scrollto" style="text-decoration: none;">Semesta Laras Basa</a></h1> --}}
             </div>
 
             <nav id="nav-menu-container">
@@ -263,29 +257,35 @@
 
                 <header class="section-header wow fadeInUp">
                     <h3>Services</h3>
-                    <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant
-                        vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta
-                        zanos paradigno tridexa panatarel.</p>
                 </header>
 
                 <div class="row">
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
                         <div class="icon"><i class="ion-chatbubbles"></i></div>
                         <h4 class="title"><a href="">Language Assistant</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                            excepturi sint occaecati cupiditate non provident</p>
+                        <ul class="description">
+                            <li>Translation</li>
+                            <li>Proofreading</li>
+                            <li>Interpreting</li>
+                            <li>Bilingual Website Content Creator</li>
+                            <li>Voice Over</li>
+                            <li>Language Testing</li>
+                        </ul>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
                         <div class="icon"><i class="ion-ios-flask"></i></div>
                         <h4 class="title"><a href="">Research Assistant</a></h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat tarad limino ata</p>
+                        <p class="description">Our research assistant service provides expert support for your research needs, including data collection, analysis, and report writing. We offer tailored assistance to streamline your research process and ensure high-quality results.</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
                         <div class="icon"><i class="ion-ios-people"></i></div>
                         <h4 class="title"><a href="">Training</a></h4>
-                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                            dolore eu fugiat nulla pariatur</p>
+                        <ul class="description">
+                            <li>Corporate in-House Training</li>
+                            <li>School in-House Program</li>
+                            <li>E-Learning</li>
+                            <li>Public Speaking</li>
+                        </ul>
                     </div>
                 </div>
 
@@ -297,7 +297,7 @@
     ============================-->
         <section id="call-to-action" class="wow fadeIn">
             <div class="container text-center">
-                <h3>Call To Action</h3>
+                <h3>Call to Action</h3>
                 <p> Partner with PT Semesta Laras Basa for reliable language services, innovative training solutions,
                     and strong international collaborations. Elevate your projects with our expertise in language and
                     research, tailored to meet both national and global standards.</p>
@@ -319,9 +319,9 @@
                     <div class="col-lg-12">
                         <ul id="portfolio-flters">
                             <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
+                            {{-- <li data-filter=".filter-app">App</li>
                             <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li>
+                            <li data-filter=".filter-web">Web</li> --}}
                         </ul>
                     </div>
                 </div>

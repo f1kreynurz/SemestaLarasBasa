@@ -138,7 +138,7 @@ h6 {
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
-  height: 72px;
+  height: 84px;
   transition: all 0.5s;
 }
 
@@ -166,7 +166,8 @@ h6 {
 }
 
 #header #logo img {
-  height: 50px;
+  height: 64px;
+  padding-bottom: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -322,6 +323,7 @@ h6 {
 .nav-menu * {
   margin: 0;
   padding: 0;
+  padding-top: 4px;
   list-style: none;
 }
 
@@ -757,6 +759,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   background-size: cover;
   padding: 60px 0 40px 0;
+}
+
+#services header {
+  margin-bottom: 46px;
 }
 
 #services .box {
