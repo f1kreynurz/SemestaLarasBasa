@@ -42,14 +42,12 @@
 
             <div id="logo" class="pull-left">
                 <a href="#intro" class="scrollto"><img src="{{ asset('new/img/logo-2.png') }}" alt="" title="" /></a>
-                {{-- <h1><a href="#intro" class="scrollto" style="text-decoration: none;">Semesta Laras Basa</a></h1> --}}
             </div>
 
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li class="menu-active"><a href="#intro">Home</a></li>
                     <li><a href="#about">About Us</a></li>
-                    {{-- <li><a href="#services">Services</a></li> --}}
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#team">Team</a></li>
                     <li class="menu-has-children"><a href="#services">Services</a>
@@ -516,19 +514,44 @@
                 </header>
 
                 <div class="owl-carousel clients-carousel">
-                    <img src="{{ asset('new/img/clients/bappeda.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/kai.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/lapan.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/zakat.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/aseansummer.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/pemkotbandung.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/south-african-youth-day.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/kemenparekraf.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/perhubungan.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/midc.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/bappenas.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/pertamina.png') }}" alt="">
+                    <a href="https://bappelitbang.bandung.go.id/v2/">
+                        <img src="{{ asset('new/img/clients/gov/gov-bappeda.png') }}" alt="">
+                    </a>
+                    <a href="https://www.kai.id/">
+                        <img src="{{ asset('new/img/clients/gov/gov-kai.png') }}" alt="">
+                    </a>
+                    <a href="https://jurnal.lapan.go.id/">
+                        <img src="{{ asset('new/img/clients/gov/gov-lapan.png') }}" alt="">
+                    </a>
+                    <a href="https://www.wzwf.org/">
+                        <img src="{{ asset('new/img/clients/gov/gov-zakat.png') }}" alt="">
+                    </a>
+                    <a href="https://www.milanurbanfoodpolicypact.org/mufpp-asean-summer-school/">
+                        <img src="{{ asset('new/img/clients/gov/gov-aseansummer.png') }}" alt="">
+                    </a>
+                    <a href="https://www.bandung.go.id/">
+                        <img src="{{ asset('new/img/clients/gov/gov-pemkotbandung.png') }}" alt="">
+                    </a>
+                    <a href="https://www.gov.za/news/events/commemorative-events/youth-day">
+                        <img src="{{ asset('new/img/clients/gov/gov-south-african-youth-day.png') }}" alt="">
+                    </a>
+                    <a href="https://www.kemenparekraf.go.id/">
+                        <img src="{{ asset('new/img/clients/gov/gov-kemenparekraf.png') }}" alt="">
+                    </a>
+                    <a href="https://dephub.go.id/">
+                        <img src="{{ asset('new/img/clients/gov/gov-perhubungan.png') }}" alt="">
+                    </a>
+                    <a href="https://dephub.go.id/">
+                        <img src="{{ asset('new/img/clients/gov/gov-midc.png') }}" alt="">
+                    </a>
+                    <a href="https://www.bappenas.go.id/">
+                        <img src="{{ asset('new/img/clients/gov/gov-bappenas.png') }}" alt="">
+                    </a>
+                    <a href="https://pds.mypertamina.id/">
+                        <img src="{{ asset('new/img/clients/gov/gov-pertamina.png') }}" alt="">
+                    </a>
                 </div>
+                
 
                 {{-- COMPANY --}}
                 <header class="section-header">
@@ -536,15 +559,80 @@
                 </header>
 
                 <div class="owl-carousel clients-carousel">
-                    <img src="{{ asset('new/img/clients/client-1.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-2.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-3.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-4.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-5.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-6.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-7.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-8.png') }}" alt="">
+                    <a href="https://www.infomedia.co.id/">
+                        <img src="{{ asset('new/img/clients/company/comp-infomedia.png') }}" alt="">
+                    </a>
+                    <a href="http://www.ultimosolution.com/">
+                        <img src="{{ asset('new/img/clients/company/comp-ultimo.png') }}" alt="">
+                    </a>
+                    <a href="https://madinaquran.co.id/">
+                        <img src="{{ asset('new/img/clients/company/comp-madina.png') }}" alt="">
+                    </a>
+                    <a href="https://www.geekseat.id/">
+                        <img src="{{ asset('new/img/clients/company/comp-geekseat.png') }}" alt="">
+                    </a>
+                    <a href="https://www.vodjo.com/id/">
+                        <img src="{{ asset('new/img/clients/company/comp-vodjo.png') }}" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="{{ asset('new/img/clients/company/comp-kiper.png') }}" alt="">
+                    </a>
+                    <a href="https://quadranenergi.id/">
+                        <img src="{{ asset('new/img/clients/company/comp-quadran.png') }}" alt="">
+                    </a>
+                    <a href="https://www.mininginsider.id/education/10278883651/profil-pt-kalimantan-energi-lestari-perusahaan-tambang-batu-bara-di-indonesia">
+                        <img src="{{ asset('new/img/clients/company/comp-kel.png') }}" alt="">
+                    </a>
+                    <a href="https://mercuria.com/">
+                        <img src="{{ asset('new/img/clients/company/comp-mercuria.png') }}" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/rockspiderwall/">
+                        <img src="{{ asset('new/img/clients/company/comp-rscw.png') }}" alt="">
+                    </a>
+                    <a href="https://www.tripaneer.com/">
+                        <img src="{{ asset('new/img/clients/company/comp-tripaneer.png') }}" alt="">
+                    </a>
+                    <a href="https://g.co/kgs/G4yP9qc">
+                        <img src="{{ asset('new/img/clients/company/comp-anindya.png') }}" alt="">
+                    </a>
+                    <a href="https://posindonesia.co.id/">
+                        <img src="{{ asset('new/img/clients/company/comp-pos.png') }}" alt="">
+                    </a>
+                    <a href="https://persib.co.id/">
+                        <img src="{{ asset('new/img/clients/company/comp-ptpbb.png') }}" alt="">
+                    </a>
+                    <a href="https://kwarsahexagon.co.id/">
+                        <img src="{{ asset('new/img/clients/company/comp-hexagon.png') }}" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/company/pt-yakjin-jaya-indonesia">
+                        <img src="{{ asset('new/img/clients/company/comp-yakjin.png') }}" alt="">
+                    </a>
+                    <a href="https://hariff.co.id/">
+                        <img src="{{ asset('new/img/clients/company/comp-hariff.png') }}" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/pt_ciptagrahaabadi/">
+                        <img src="{{ asset('new/img/clients/company/comp-cga.png') }}" alt="">
+                    </a>
+                    <a href="https://pupuk-kujang.co.id/">
+                        <img src="{{ asset('new/img/clients/company/comp-pupukkujang.png') }}" alt="">
+                    </a>
+                    <a href="https://www.gsp.co.id/">
+                        <img src="{{ asset('new/img/clients/company/comp-gsp.png') }}" alt="">
+                    </a>
+                    <a href="https://www.sinkonaindonesia.com/">
+                        <img src="{{ asset('new/img/clients/company/comp-sil.png') }}" alt="">
+                    </a>
+                    <a href="https://www.thermochem.com/our-company/indonesia-2/">
+                        <img src="{{ asset('new/img/clients/company/comp-thermochem.png') }}" alt="">
+                    </a>
+                    <a href="https://tempatspa.com/listing/jawa-barat/bandung-3/spakeluarga/qenari-spa-bandung">
+                        <img src="{{ asset('new/img/clients/company/comp-qenarispa.png') }}" alt="">
+                    </a>
+                    <a href="https://www.thetranshotel.com/">
+                        <img src="{{ asset('new/img/clients/company/comp-transhotel.png') }}" alt="">
+                    </a>
                 </div>
+                
 
                 {{-- UNIVERSITY --}}
                 <header class="section-header">
@@ -552,15 +640,113 @@
                 </header>
 
                 <div class="owl-carousel clients-carousel">
-                    <img src="{{ asset('new/img/clients/client-1.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-2.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-3.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-4.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-5.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-6.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-7.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-8.png') }}" alt="">
+                    <a href="https://www.monash.edu/">
+                        <img src="{{ asset('new/img/clients/univ/1.png') }}" alt="">
+                    </a>
+                    <a href="https://www.unsw.edu.au/">
+                        <img src="{{ asset('new/img/clients/univ/2.png') }}" alt="">
+                    </a>
+                    <a href="https://nmu.edu/">
+                        <img src="{{ asset('new/img/clients/univ/3.png') }}" alt="">
+                    </a>
+                    <a href="https://www.fju.edu.tw/indexEN.jsp">
+                        <img src="{{ asset('new/img/clients/univ/4.png') }}" alt="">
+                    </a>
+                    <a href="http://www.utem.edu.my/">
+                        <img src="{{ asset('new/img/clients/univ/5.png') }}" alt="">
+                    </a>
+                    <a href="https://www.upi.edu/">
+                        <img src="{{ asset('new/img/clients/univ/6.png') }}" alt="">
+                    </a>
+                    <a href="https://www.unpad.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/7.png') }}" alt="">
+                    </a>
+                    <a href="https://www.itb.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/8.png') }}" alt="">
+                    </a>
+                    <a href="https://www.unikom.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/9.png') }}" alt="">
+                    </a>
+                    <a href="https://unisba.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/10.png') }}" alt="">
+                    </a>
+                    <a href="https://telkomuniversity.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/11.png') }}" alt="">
+                    </a>
+                    <a href="https://www.polban.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/12.png') }}" alt="">
+                    </a>
+                    <a href="https://www.unjani.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/13.png') }}" alt="">
+                    </a>
+                    <a href="https://situ2.unpas.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/14.png') }}" alt="">
+                    </a>
+                    <a href="https://www.ui.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/15.png') }}" alt="">
+                    </a>
+                    <a href="https://www.atmajaya.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/16.png') }}" alt="">
+                    </a>
+                    <a href="https://www.petra.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/17.png') }}" alt="">
+                    </a>
+                    <a href="https://isbi.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/18.png') }}" alt="">
+                    </a>
+                    <a href="https://www.poltekesos.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/19.png') }}" alt="">
+                    </a>
+                    <a href="https://unsil.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/20.png') }}" alt="">
+                    </a>
+                    <a href="https://www.ipb.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/21.png') }}" alt="">
+                    </a>
+                    <a href="https://binus.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/22.png') }}" alt="">
+                    </a>
+                    <a href="https://www.maranatha.edu/">
+                        <img src="{{ asset('new/img/clients/univ/23.png') }}" alt="">
+                    </a>
+                    <a href="https://www.uny.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/24.png') }}" alt="">
+                    </a>
+                    <a href="https://trisakti.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/25.png') }}" alt="">
+                    </a>
+                    <a href="https://unpar.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/26.png') }}" alt="">
+                    </a>
+                    <a href="https://www.unj.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/27.png') }}" alt="">
+                    </a>
+                    <a href="https://www.its.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/28.png') }}" alt="">
+                    </a>
+                    <a href="https://uinsgd.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/29.png') }}" alt="">
+                    </a>
+                    <a href="https://www.ulbi.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/30.png') }}" alt="">
+                    </a>
+                    <a href="https://unri.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/31.png') }}" alt="">
+                    </a>
+                    <a href="https://unpam.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/32.png') }}" alt="">
+                    </a>
+                    <a href="https://www.unud.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/33.png') }}" alt="">
+                    </a>
+                    <a href="https://www.uta45jakarta.ac.id/">
+                        <img src="{{ asset('new/img/clients/univ/34.png') }}" alt="">
+                    </a>
+                    <a href="https://www.ub.ac.id/id/">
+                        <img src="{{ asset('new/img/clients/univ/35.png') }}" alt="">
+                    </a>
                 </div>
+                
 
                 {{-- SCHOOL --}}
                 <header class="section-header">
@@ -568,14 +754,54 @@
                 </header>
 
                 <div class="owl-carousel clients-carousel">
-                    <img src="{{ asset('new/img/clients/client-1.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-2.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-3.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-4.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-5.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-6.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-7.png') }}" alt="">
-                    <img src="{{ asset('new/img/clients/client-8.png') }}" alt="">
+                    <a href="https://www.smpdtbs.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/1.png') }}" alt="">
+                    </a>
+                    <a href="https://www.smkn7bandung.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/2.png') }}" alt="">
+                    </a>
+                    <a href="https://smkn5bandung.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/3.png') }}" alt="">
+                    </a>
+                    <a href="https://www.smk-kencana.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/4.png') }}" alt="">
+                    </a>
+                    <a href="https://smknasionalbandung.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/5.png') }}" alt="">
+                    </a>
+                    <a href="https://smkpasundan1bandung.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/6.png') }}" alt="">
+                    </a>
+                    <a href="http://smkpasundan1cianjur.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/7.png') }}" alt="">
+                    </a>
+                    <a href="https://www.smkpasundan2cianjur.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/8.png') }}" alt="">
+                    </a>
+                    <a href="https://smkbahagia.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/8.1.png') }}" alt="">
+                    </a>
+                    <a href="https://bpkpenabur.or.id/cities/bandung">
+                        <img src="{{ asset('new/img/clients/school/9.png') }}" alt="">
+                    </a>
+                    <a href="https://smktelkom-bdg.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/10.png') }}" alt="">
+                    </a>
+                    <a href="https://sman9bdg.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/11.png') }}" alt="">
+                    </a>
+                    <a href="https://www.smasbpi1bdg.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/12.png') }}" alt="">
+                    </a>
+                    <a href="https://sman25kabtng.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/13.png') }}" alt="">
+                    </a>
+                    <a href="https://pgri109-tng.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/14.png') }}" alt="">
+                    </a>
+                    <a href="https://assyifa-boardingschool.sch.id/">
+                        <img src="{{ asset('new/img/clients/school/15.png') }}" alt="">
+                    </a>
                 </div>
 
 
@@ -877,7 +1103,6 @@
 
                 <div class="section-header">
                     <h3>Contact Us</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
                 </div>
 
                 <div class="mb-4">
@@ -903,8 +1128,8 @@
                         <div class="contact-phone">
                             <i class="ion-ios-telephone-outline"></i>
                             <h3>Phone Number</h3>
-                            {{-- <p><a href="tel:+6281320045767">+62 813-2004-5767</a></p> --}}
-                            <p>+62 813-2004-5767</p>
+                            <p><a href="whatsapp://send?text=Hello&phone=+628111323121">+62 811-1323-121</a></p>
+                            {{-- <p>+62 813-2004-5767</p> --}}
                         </div>
                     </div>
 
@@ -966,13 +1191,13 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-md-6 footer-info">
-                        <h3>BizPage</h3>
-                        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
+                        <h3>Semesta Laras Basa</h3>
+                        {{-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
                             valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet
-                            proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                            proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p> --}}
                     </div>
 
-                    <div class="col-lg-3 col-md-6 footer-links">
+                    {{-- <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Useful Links</h4>
                         <ul>
                             <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
@@ -981,16 +1206,16 @@
                             <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
                             <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
                         </ul>
-                    </div>
+                    </div> --}}
 
                     <div class="col-lg-3 col-md-6 footer-contact">
                         <h4>Contact Us</h4>
                         <p>
-                            A108 Adam Street <br>
-                            New York, NY 535022<br>
-                            United States <br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>Email:</strong> info@example.com<br>
+                            21 Terusan Cibogo Atas <br>
+                            Sukawarna, Kec. Sukajadi, Kota Bandung, Jawa Barat 40164<br>
+                            Indonesia <br>
+                            <strong>Phone:</strong> +62 811-1323-121<br>
+                            <strong>Email:</strong> hello@larasbasa.com<br>
                         </p>
 
                         <div class="social-links">
@@ -1003,7 +1228,7 @@
 
                     </div>
 
-                    <div class="col-lg-3 col-md-6 footer-newsletter">
+                    {{-- <div class="col-lg-3 col-md-6 footer-newsletter">
                         <h4>Our Newsletter</h4>
                         <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam
                             illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase
@@ -1011,7 +1236,7 @@
                         <form action="" method="post">
                             <input type="email" name="email"><input type="submit" value="Subscribe">
                         </form>
-                    </div>
+                    </div> --}}
 
                 </div>
             </div>
@@ -1019,16 +1244,10 @@
 
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+                &copy; Copyright <strong>Laras Basa</strong>. All Rights Reserved
             </div>
             <div class="credits">
-                <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-        -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                Designed by <a href="https://larasbasa.com/">Laras Basa Team</a>
             </div>
         </div>
     </footer><!-- #footer -->
